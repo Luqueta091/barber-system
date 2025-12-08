@@ -1,2419 +1,1224 @@
-{\rtf1\ansi\ansicpg1252\cocoartf2639
-\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\froman\fcharset0 Times-Bold;\f1\froman\fcharset0 Times-Roman;\f2\fmodern\fcharset0 Courier;
-\f3\fnil\fcharset0 LucidaGrande;\f4\fnil\fcharset0 Menlo-Regular;\f5\ftech\fcharset77 Symbol;
-}
-{\colortbl;\red255\green255\blue255;\red0\green0\blue0;}
-{\*\expandedcolortbl;;\cssrgb\c0\c0\c0;}
-{\*\listtable{\list\listtemplateid1\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid1\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid1}
-{\list\listtemplateid2\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid101\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid2}
-{\list\listtemplateid3\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid201\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid3}
-{\list\listtemplateid4\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid301\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{circle\}}{\leveltext\leveltemplateid302\'01\uc0\u9702 ;}{\levelnumbers;}\fi-360\li1440\lin1440 }{\listname ;}\listid4}
-{\list\listtemplateid5\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid401\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{circle\}}{\leveltext\leveltemplateid402\'01\uc0\u9702 ;}{\levelnumbers;}\fi-360\li1440\lin1440 }{\listname ;}\listid5}
-{\list\listtemplateid6\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid501\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{circle\}}{\leveltext\leveltemplateid502\'01\uc0\u9702 ;}{\levelnumbers;}\fi-360\li1440\lin1440 }{\listname ;}\listid6}
-{\list\listtemplateid7\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid601\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{circle\}}{\leveltext\leveltemplateid602\'01\uc0\u9702 ;}{\levelnumbers;}\fi-360\li1440\lin1440 }{\listname ;}\listid7}
-{\list\listtemplateid8\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid701\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{circle\}}{\leveltext\leveltemplateid702\'01\uc0\u9702 ;}{\levelnumbers;}\fi-360\li1440\lin1440 }{\listname ;}\listid8}
-{\list\listtemplateid9\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid801\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{circle\}}{\leveltext\leveltemplateid802\'01\uc0\u9702 ;}{\levelnumbers;}\fi-360\li1440\lin1440 }{\listname ;}\listid9}
-{\list\listtemplateid10\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid901\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{circle\}}{\leveltext\leveltemplateid902\'01\uc0\u9702 ;}{\levelnumbers;}\fi-360\li1440\lin1440 }{\listname ;}\listid10}
-{\list\listtemplateid11\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid1001\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{circle\}}{\leveltext\leveltemplateid1002\'01\uc0\u9702 ;}{\levelnumbers;}\fi-360\li1440\lin1440 }{\listname ;}\listid11}
-{\list\listtemplateid12\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid1101\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{circle\}}{\leveltext\leveltemplateid1102\'01\uc0\u9702 ;}{\levelnumbers;}\fi-360\li1440\lin1440 }{\listname ;}\listid12}
-{\list\listtemplateid13\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid1201\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{circle\}}{\leveltext\leveltemplateid1202\'01\uc0\u9702 ;}{\levelnumbers;}\fi-360\li1440\lin1440 }{\listname ;}\listid13}
-{\list\listtemplateid14\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid1301\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid14}
-{\list\listtemplateid15\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid1401\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid15}
-{\list\listtemplateid16\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid1501\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{circle\}}{\leveltext\leveltemplateid1502\'01\uc0\u9702 ;}{\levelnumbers;}\fi-360\li1440\lin1440 }{\listname ;}\listid16}
-{\list\listtemplateid17\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid1601\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{circle\}}{\leveltext\leveltemplateid1602\'01\uc0\u9702 ;}{\levelnumbers;}\fi-360\li1440\lin1440 }{\listname ;}\listid17}
-{\list\listtemplateid18\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid1701\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{circle\}}{\leveltext\leveltemplateid1702\'01\uc0\u9702 ;}{\levelnumbers;}\fi-360\li1440\lin1440 }{\listname ;}\listid18}
-{\list\listtemplateid19\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid1801\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid19}
-{\list\listtemplateid20\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid1901\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid20}
-{\list\listtemplateid21\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid2001\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{circle\}}{\leveltext\leveltemplateid2002\'01\uc0\u9702 ;}{\levelnumbers;}\fi-360\li1440\lin1440 }{\listname ;}\listid21}
-{\list\listtemplateid22\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid2101\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{circle\}}{\leveltext\leveltemplateid2102\'01\uc0\u9702 ;}{\levelnumbers;}\fi-360\li1440\lin1440 }{\listname ;}\listid22}
-{\list\listtemplateid23\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid2201\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{circle\}}{\leveltext\leveltemplateid2202\'01\uc0\u9702 ;}{\levelnumbers;}\fi-360\li1440\lin1440 }{\listname ;}\listid23}
-{\list\listtemplateid24\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid2301\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{circle\}}{\leveltext\leveltemplateid2302\'01\uc0\u9702 ;}{\levelnumbers;}\fi-360\li1440\lin1440 }{\listname ;}\listid24}
-{\list\listtemplateid25\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid2401\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{circle\}}{\leveltext\leveltemplateid2402\'01\uc0\u9702 ;}{\levelnumbers;}\fi-360\li1440\lin1440 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{square\}}{\leveltext\leveltemplateid2403\'01\uc0\u9642 ;}{\levelnumbers;}\fi-360\li2160\lin2160 }{\listname ;}\listid25}
-{\list\listtemplateid26\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid2501\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{circle\}}{\leveltext\leveltemplateid2502\'01\uc0\u9702 ;}{\levelnumbers;}\fi-360\li1440\lin1440 }{\listname ;}\listid26}
-{\list\listtemplateid27\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid2601\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{circle\}}{\leveltext\leveltemplateid2602\'01\uc0\u9702 ;}{\levelnumbers;}\fi-360\li1440\lin1440 }{\listname ;}\listid27}
-{\list\listtemplateid28\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid2701\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{circle\}}{\leveltext\leveltemplateid2702\'01\uc0\u9702 ;}{\levelnumbers;}\fi-360\li1440\lin1440 }{\listname ;}\listid28}
-{\list\listtemplateid29\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid2801\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{circle\}}{\leveltext\leveltemplateid2802\'01\uc0\u9702 ;}{\levelnumbers;}\fi-360\li1440\lin1440 }{\listname ;}\listid29}
-{\list\listtemplateid30\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid2901\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid30}
-{\list\listtemplateid31\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid3001\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid31}
-{\list\listtemplateid32\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid3101\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{circle\}}{\leveltext\leveltemplateid3102\'01\uc0\u9702 ;}{\levelnumbers;}\fi-360\li1440\lin1440 }{\listname ;}\listid32}
-{\list\listtemplateid33\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid3201\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{circle\}}{\leveltext\leveltemplateid3202\'01\uc0\u9702 ;}{\levelnumbers;}\fi-360\li1440\lin1440 }{\listname ;}\listid33}
-{\list\listtemplateid34\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid3301\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{circle\}}{\leveltext\leveltemplateid3302\'01\uc0\u9702 ;}{\levelnumbers;}\fi-360\li1440\lin1440 }{\listname ;}\listid34}
-{\list\listtemplateid35\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid3401\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{circle\}}{\leveltext\leveltemplateid3402\'01\uc0\u9702 ;}{\levelnumbers;}\fi-360\li1440\lin1440 }{\listname ;}\listid35}
-{\list\listtemplateid36\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid3501\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{circle\}}{\leveltext\leveltemplateid3502\'01\uc0\u9702 ;}{\levelnumbers;}\fi-360\li1440\lin1440 }{\listname ;}\listid36}
-{\list\listtemplateid37\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid3601\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{circle\}}{\leveltext\leveltemplateid3602\'01\uc0\u9702 ;}{\levelnumbers;}\fi-360\li1440\lin1440 }{\listname ;}\listid37}
-{\list\listtemplateid38\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid3701\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid38}
-{\list\listtemplateid39\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid3801\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{circle\}}{\leveltext\leveltemplateid3802\'01\uc0\u9702 ;}{\levelnumbers;}\fi-360\li1440\lin1440 }{\listname ;}\listid39}}
-{\*\listoverridetable{\listoverride\listid1\listoverridecount0\ls1}{\listoverride\listid2\listoverridecount0\ls2}{\listoverride\listid3\listoverridecount0\ls3}{\listoverride\listid4\listoverridecount0\ls4}{\listoverride\listid5\listoverridecount0\ls5}{\listoverride\listid6\listoverridecount0\ls6}{\listoverride\listid7\listoverridecount0\ls7}{\listoverride\listid8\listoverridecount0\ls8}{\listoverride\listid9\listoverridecount0\ls9}{\listoverride\listid10\listoverridecount0\ls10}{\listoverride\listid11\listoverridecount0\ls11}{\listoverride\listid12\listoverridecount0\ls12}{\listoverride\listid13\listoverridecount0\ls13}{\listoverride\listid14\listoverridecount0\ls14}{\listoverride\listid15\listoverridecount0\ls15}{\listoverride\listid16\listoverridecount0\ls16}{\listoverride\listid17\listoverridecount0\ls17}{\listoverride\listid18\listoverridecount0\ls18}{\listoverride\listid19\listoverridecount0\ls19}{\listoverride\listid20\listoverridecount0\ls20}{\listoverride\listid21\listoverridecount0\ls21}{\listoverride\listid22\listoverridecount0\ls22}{\listoverride\listid23\listoverridecount0\ls23}{\listoverride\listid24\listoverridecount0\ls24}{\listoverride\listid25\listoverridecount0\ls25}{\listoverride\listid26\listoverridecount0\ls26}{\listoverride\listid27\listoverridecount0\ls27}{\listoverride\listid28\listoverridecount0\ls28}{\listoverride\listid29\listoverridecount0\ls29}{\listoverride\listid30\listoverridecount0\ls30}{\listoverride\listid31\listoverridecount0\ls31}{\listoverride\listid32\listoverridecount0\ls32}{\listoverride\listid33\listoverridecount0\ls33}{\listoverride\listid34\listoverridecount0\ls34}{\listoverride\listid35\listoverridecount0\ls35}{\listoverride\listid36\listoverridecount0\ls36}{\listoverride\listid37\listoverridecount0\ls37}{\listoverride\listid38\listoverridecount0\ls38}{\listoverride\listid39\listoverridecount0\ls39}}
-\paperw11900\paperh16840\margl1440\margr1440\vieww11520\viewh8400\viewkind0
-\deftab720
-\pard\pardeftab720\sa321\partightenfactor0
+PHASE 0 – Business Context and Architecture (já feitos, mas vou incluir)
+TASK-BIZ-001 – Understand business problem
+Read the document "Problema_estruturado.md". Extract and summarize:
+- the main business problem,
+- who has this problem (primary and secondary users),
+- the current situation and pain points.
 
-\f0\b\fs48 \cf0 \expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 Implementation Task Plan \'96 Barber Shop Scheduling System V1\
-\pard\pardeftab720\sa240\partightenfactor0
+Return a concise bullet-point summary focused on what a scheduling system for a barbershop must solve.
 
-\f1\b0\fs24 \cf0 Assumptions:\
-\pard\tx220\tx720\pardeftab720\li720\fi-720\sa240\partightenfactor0
-\ls1\ilvl0\cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 Backend: Node.js + TypeScript + Express + Prisma + PostgreSQL\
-\ls1\ilvl0\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 Frontend: React + TypeScript (separate project)\
-\ls1\ilvl0\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 Architecture: modular backend with modules 
-\f2\fs26 clientes
-\f1\fs24 , 
-\f2\fs26 barbeiros
-\f1\fs24 , 
-\f2\fs26 servicos
-\f1\fs24 , 
-\f2\fs26 agendamentos
-\f1\fs24  and 
-\f2\fs26 shared
-\f1\fs24  as already designed.\
-\pard\pardeftab720\partightenfactor0
-\cf0 \
-\pard\pardeftab720\sa298\partightenfactor0
+TASK-BIZ-002 – Understand V1 scope
+Read the document "escopo_da_V1.md". Summarize:
+- the main goal of V1,
+- all features that are explicitly IN scope,
+- all features that are explicitly OUT of scope.
 
-\f0\b\fs36 \cf0 PHASE 0 \'96 Business Context and Architecture (already done)\
-\pard\pardeftab720\sa240\partightenfactor0
+Return a structured summary with headings: "Goal", "In Scope", "Out of Scope", "V1 Ready Criteria".
 
-\f1\b0\fs24 \cf0 Estas tasks descrevem o que j\'e1 foi feito (problema, V1, entidades, ciclo de vida, arquitetura). Voc\'ea pode marcar como \'93done\'94 e focar das pr\'f3ximas fases pra frente.\
-\pard\tx220\tx720\pardeftab720\li720\fi-720\sa240\partightenfactor0
-\ls2\ilvl0\cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 TASK-BIZ-001: Read and understand the business problem, target users and current pain points from the \'93Problema estruturado\'94 document.\
-\ls2\ilvl0\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 TASK-BIZ-002: Read and understand the V1 scope (features that enter and what is out of scope) from \'93Escopo da V1\'94.\
-\ls2\ilvl0\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 TASK-BIZ-003: Read and understand the entity model (BARBEIRO, CLIENTE, SERVICO, HORARIO_TRABALHO, AGENDAMENTO and relationships).\
-\ls2\ilvl0\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 TASK-BIZ-004: Read and understand the lifecycle of an appointment, all statuses (CONFIRMADO, CONCLUIDO, CANCELADO_CLIENTE, CANCELADO_BARBEIRO, FALTA) and allowed transitions.\
-\ls2\ilvl0\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 TASK-ARC-001: Approve the architecture document with modules (
-\f2\fs26 clientes
-\f1\fs24 , 
-\f2\fs26 barbeiros
-\f1\fs24 , 
-\f2\fs26 servicos
-\f1\fs24 , 
-\f2\fs26 agendamentos
-\f1\fs24 , 
-\f2\fs26 shared
-\f1\fs24 ), layers (interface, domain, infra) and folder structure.\
-\pard\pardeftab720\partightenfactor0
-\cf0 \
-\pard\pardeftab720\sa298\partightenfactor0
+TASK-BIZ-003 – Understand entities
+Read the document "Modelos_de_entidades.md". Summarize:
+- the main entities,
+- their key fields,
+- the relationships between them.
 
-\f0\b\fs36 \cf0 PHASE 1 \'96 Backend Project Setup\
-\pard\pardeftab720\sa280\partightenfactor0
+Return a table-like description in plain text for each entity: BARBEIRO, CLIENTE, SERVICO, HORARIO_TRABALHO, AGENDAMENTO.
 
-\fs28 \cf0 1.1 Repository and base config\
-\pard\tx220\tx720\pardeftab720\li720\fi-720\sa240\partightenfactor0
-\ls3\ilvl0
-\f1\b0\fs24 \cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 TASK-BE-001: Create a Git repository named 
-\f2\fs26 barbearia-agendamento-backend
-\f1\fs24 .\
-\ls3\ilvl0\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 TASK-BE-002: Initialize a Node.js + TypeScript project (
-\f2\fs26 npm init -y
-\f1\fs24 , 
-\f2\fs26 tsconfig.json
-\f1\fs24 , 
-\f2\fs26 src
-\f1\fs24  folder).\
-\ls3\ilvl0\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 TASK-BE-003: Add basic scripts in 
-\f2\fs26 package.json
-\f1\fs24  (
-\f2\fs26 dev
-\f1\fs24 , 
-\f2\fs26 build
-\f1\fs24 , 
-\f2\fs26 start
-\f1\fs24 ).\
-\ls3\ilvl0\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 TASK-BE-004: Install backend dependencies: 
-\f2\fs26 express
-\f1\fs24 , 
-\f2\fs26 cors
-\f1\fs24 , 
-\f2\fs26 dotenv
-\f1\fs24 , 
-\f2\fs26 zod
-\f1\fs24  (or similar validator).\
-\ls3\ilvl0\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 TASK-BE-005: Install dev dependencies: 
-\f2\fs26 typescript
-\f1\fs24 , 
-\f2\fs26 ts-node-dev
-\f1\fs24  (or 
-\f2\fs26 nodemon
-\f1\fs24 ), 
-\f2\fs26 @types/node
-\f1\fs24 , 
-\f2\fs26 @types/express
-\f1\fs24 , testing libs (
-\f2\fs26 jest
-\f1\fs24 , 
-\f2\fs26 ts-jest
-\f1\fs24 , 
-\f2\fs26 supertest
-\f1\fs24 ).\
-\ls3\ilvl0\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 TASK-BE-006: Configure 
-\f2\fs26 tsconfig.json
-\f1\fs24  to compile 
-\f2\fs26 src
-\f1\fs24  into 
-\f2\fs26 dist
-\f1\fs24  and use strict TypeScript options.\
-\pard\pardeftab720\sa280\partightenfactor0
+TASK-BIZ-004 – Understand appointment lifecycle
+Read the document "ciclo_de_vida_do_agendamento.md". Summarize:
+- all possible states of an appointment,
+- all allowed state transitions and who triggers them,
+- the temporal rules (lead time for booking and canceling),
+- the actions taken when a no-show happens.
 
-\f0\b\fs28 \cf0 1.2 Application entry point\
-\pard\tx220\tx720\pardeftab720\li720\fi-720\sa240\partightenfactor0
-\ls4\ilvl0
-\f1\b0\fs24 \cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 TASK-BE-010: Create 
-\f2\fs26 src/main/app.ts
-\f1\fs24  that:\
-\pard\tx940\tx1440\pardeftab720\li1440\fi-1440\sa240\partightenfactor0
-\ls4\ilvl1\cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	
-\f3 \uc0\u9702 
-\f1 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 creates an Express app,\
-\ls4\ilvl1\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	
-\f3 \uc0\u9702 
-\f1 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 configures JSON body parsing,\
-\ls4\ilvl1\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	
-\f3 \uc0\u9702 
-\f1 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 configures CORS,\
-\ls4\ilvl1\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	
-\f3 \uc0\u9702 
-\f1 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 attaches a placeholder router from 
-\f2\fs26 src/main/routes.ts
-\f1\fs24 ,\
-\ls4\ilvl1\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	
-\f3 \uc0\u9702 
-\f1 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 exports the Express app.\
-\pard\tx220\tx720\pardeftab720\li720\fi-720\sa240\partightenfactor0
-\ls4\ilvl0\cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 TASK-BE-011: Create 
-\f2\fs26 src/main/server.ts
-\f1\fs24  that:\
-\pard\tx940\tx1440\pardeftab720\li1440\fi-1440\sa240\partightenfactor0
-\ls4\ilvl1\cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	
-\f3 \uc0\u9702 
-\f1 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 imports the app from 
-\f2\fs26 src/main/app.ts
-\f1\fs24 ,\
-\ls4\ilvl1\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	
-\f3 \uc0\u9702 
-\f1 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 reads 
-\f2\fs26 PORT
-\f1\fs24  from environment,\
-\ls4\ilvl1\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	
-\f3 \uc0\u9702 
-\f1 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 starts the HTTP server.\
-\pard\tx220\tx720\pardeftab720\li720\fi-720\sa240\partightenfactor0
-\ls4\ilvl0\cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 TASK-BE-012: Create 
-\f2\fs26 src/main/routes.ts
-\f1\fs24  that:\
-\pard\tx940\tx1440\pardeftab720\li1440\fi-1440\sa240\partightenfactor0
-\ls4\ilvl1\cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	
-\f3 \uc0\u9702 
-\f1 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 instantiates an Express router,\
-\ls4\ilvl1\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	
-\f3 \uc0\u9702 
-\f1 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 registers placeholder routers for each module (
-\f2\fs26 clientes
-\f1\fs24 , 
-\f2\fs26 barbeiros
-\f1\fs24 , 
-\f2\fs26 servicos
-\f1\fs24 , 
-\f2\fs26 agendamentos
-\f1\fs24 ),\
-\ls4\ilvl1\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	
-\f3 \uc0\u9702 
-\f1 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 exports the main router.\
-\pard\pardeftab720\partightenfactor0
-\cf0 \
-\pard\pardeftab720\sa298\partightenfactor0
+Return a clear description that can be used as acceptance criteria for implementing the scheduling logic.
 
-\f0\b\fs36 \cf0 PHASE 2 \'96 Shared Infrastructure and Database\
-\pard\pardeftab720\sa280\partightenfactor0
+TASK-ARC-001 – Approve architecture
+Using the business context and the architecture document that defines modules (clientes, barbeiros, servicos, agendamentos, shared), layers (interface, domain, infra) and folder structure:
 
-\fs28 \cf0 2.1 Shared infra structure\
-\pard\tx220\tx720\pardeftab720\li720\fi-720\sa240\partightenfactor0
-\ls5\ilvl0
-\f1\b0\fs24 \cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 TASK-BE-020: Create folder 
-\f2\fs26 src/shared/infra
-\f1\fs24 .\
-\ls5\ilvl0\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 TASK-BE-021: Create file 
-\f2\fs26 src/shared/infra/database.ts
-\f1\fs24  that:\
-\pard\tx940\tx1440\pardeftab720\li1440\fi-1440\sa240\partightenfactor0
-\ls5\ilvl1\cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	
-\f3 \uc0\u9702 
-\f1 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 loads environment variables (
-\f2\fs26 dotenv
-\f1\fs24 ),\
-\ls5\ilvl1\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	
-\f3 \uc0\u9702 
-\f1 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 exports a singleton database client (placeholder for now; will be Prisma).\
-\pard\tx220\tx720\pardeftab720\li720\fi-720\sa240\partightenfactor0
-\ls5\ilvl0\cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 TASK-BE-022: Create file 
-\f2\fs26 src/shared/infra/logger.ts
-\f1\fs24  with a simple logger utility.\
-\pard\pardeftab720\sa280\partightenfactor0
+1. Re-summarize the architecture in 10–15 bullet points covering:
+   - modules,
+   - responsibilities,
+   - dependencies,
+   - layering,
+   - key use cases.
 
-\f0\b\fs28 \cf0 2.2 Prisma and PostgreSQL\
-\pard\tx220\tx720\pardeftab720\li720\fi-720\sa240\partightenfactor0
-\ls6\ilvl0
-\f1\b0\fs24 \cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 TASK-BE-030: Install Prisma dependencies: 
-\f2\fs26 prisma
-\f1\fs24 , 
-\f2\fs26 @prisma/client
-\f1\fs24 .\
-\ls6\ilvl0\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 TASK-BE-031: Initialize Prisma (
-\f2\fs26 npx prisma init
-\f1\fs24 ), creating 
-\f2\fs26 prisma/schema.prisma
-\f1\fs24  and 
-\f2\fs26 .env
-\f1\fs24 .\
-\ls6\ilvl0\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 TASK-BE-032: In 
-\f2\fs26 .env
-\f1\fs24 , define 
-\f2\fs26 DATABASE_URL
-\f1\fs24  pointing to a PostgreSQL database.\
-\ls6\ilvl0\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 TASK-BE-033: In 
-\f2\fs26 prisma/schema.prisma
-\f1\fs24 , define model 
-\f2\fs26 Barbeiro
-\f1\fs24  with fields:\
-\pard\tx940\tx1440\pardeftab720\li1440\fi-1440\sa240\partightenfactor0
-\ls6\ilvl1
-\f2\fs26 \cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	
-\f4 \uc0\u9702 
-\f2 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 id
-\f1\fs24  (String, @id, @default(uuid())),\
-\ls6\ilvl1
-\f2\fs26 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	
-\f4 \uc0\u9702 
-\f2 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 nome
-\f1\fs24  (String),\
-\ls6\ilvl1
-\f2\fs26 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	
-\f4 \uc0\u9702 
-\f2 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 telefone
-\f1\fs24  (String),\
-\ls6\ilvl1
-\f2\fs26 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	
-\f4 \uc0\u9702 
-\f2 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 ativo
-\f1\fs24  (Boolean),\
-\pard\tx940\tx1440\pardeftab720\li1440\fi-1440\sa240\partightenfactor0
-\ls6\ilvl1\cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	
-\f3 \uc0\u9702 
-\f1 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 optional 
-\f2\fs26 corAgenda
-\f1\fs24  (String?), even if not used in V1. \
-\pard\tx220\tx720\pardeftab720\li720\fi-720\sa240\partightenfactor0
-\ls6\ilvl0\cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 TASK-BE-034: In 
-\f2\fs26 prisma/schema.prisma
-\f1\fs24 , define model 
-\f2\fs26 Cliente
-\f1\fs24  with fields:\
-\pard\tx940\tx1440\pardeftab720\li1440\fi-1440\sa240\partightenfactor0
-\ls6\ilvl1
-\f2\fs26 \cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	
-\f4 \uc0\u9702 
-\f2 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 id
-\f1\fs24  (String, @id, @default(uuid())),\
-\ls6\ilvl1
-\f2\fs26 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	
-\f4 \uc0\u9702 
-\f2 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 nome
-\f1\fs24  (String),\
-\ls6\ilvl1
-\f2\fs26 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	
-\f4 \uc0\u9702 
-\f2 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 telefone
-\f1\fs24  (String),\
-\ls6\ilvl1
-\f2\fs26 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	
-\f4 \uc0\u9702 
-\f2 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 faltas
-\f1\fs24  (Int, default 0),\
-\ls6\ilvl1
-\f2\fs26 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	
-\f4 \uc0\u9702 
-\f2 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 bloqueado
-\f1\fs24  (Boolean, default false). \
-\pard\tx220\tx720\pardeftab720\li720\fi-720\sa240\partightenfactor0
-\ls6\ilvl0\cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 TASK-BE-035: In 
-\f2\fs26 prisma/schema.prisma
-\f1\fs24 , define model 
-\f2\fs26 Servico
-\f1\fs24  with fields:\
-\pard\tx940\tx1440\pardeftab720\li1440\fi-1440\sa240\partightenfactor0
-\ls6\ilvl1
-\f2\fs26 \cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	
-\f4 \uc0\u9702 
-\f2 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 id
-\f1\fs24  (String, @id, @default(uuid())),\
-\ls6\ilvl1
-\f2\fs26 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	
-\f4 \uc0\u9702 
-\f2 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 nome
-\f1\fs24  (String),\
-\ls6\ilvl1
-\f2\fs26 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	
-\f4 \uc0\u9702 
-\f2 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 duracaoMinutos
-\f1\fs24  (Int),\
-\ls6\ilvl1
-\f2\fs26 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	
-\f4 \uc0\u9702 
-\f2 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 preco
-\f1\fs24  (Decimal),\
-\ls6\ilvl1
-\f2\fs26 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	
-\f4 \uc0\u9702 
-\f2 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 ativo
-\f1\fs24  (Boolean). \
-\pard\tx220\tx720\pardeftab720\li720\fi-720\sa240\partightenfactor0
-\ls6\ilvl0\cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 TASK-BE-036: In 
-\f2\fs26 prisma/schema.prisma
-\f1\fs24 , define model 
-\f2\fs26 HorarioTrabalho
-\f1\fs24  with fields:\
-\pard\tx940\tx1440\pardeftab720\li1440\fi-1440\sa240\partightenfactor0
-\ls6\ilvl1
-\f2\fs26 \cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	
-\f4 \uc0\u9702 
-\f2 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 id
-\f1\fs24  (String, @id, @default(uuid())),\
-\ls6\ilvl1
-\f2\fs26 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	
-\f4 \uc0\u9702 
-\f2 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 barbeiroId
-\f1\fs24  (String, relation to Barbeiro),\
-\ls6\ilvl1
-\f2\fs26 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	
-\f4 \uc0\u9702 
-\f2 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 diaSemana
-\f1\fs24  (Int),\
-\ls6\ilvl1
-\f2\fs26 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	
-\f4 \uc0\u9702 
-\f2 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 horaInicio
-\f1\fs24  (DateTime or Time),\
-\ls6\ilvl1
-\f2\fs26 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	
-\f4 \uc0\u9702 
-\f2 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 horaFim
-\f1\fs24  (DateTime or Time). \
-\pard\tx220\tx720\pardeftab720\li720\fi-720\sa240\partightenfactor0
-\ls6\ilvl0\cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 TASK-BE-037: In 
-\f2\fs26 prisma/schema.prisma
-\f1\fs24 , define model 
-\f2\fs26 Agendamento
-\f1\fs24  with fields:\
-\pard\tx940\tx1440\pardeftab720\li1440\fi-1440\sa240\partightenfactor0
-\ls6\ilvl1
-\f2\fs26 \cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	
-\f4 \uc0\u9702 
-\f2 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 id
-\f1\fs24  (String, @id, @default(uuid())),\
-\ls6\ilvl1
-\f2\fs26 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	
-\f4 \uc0\u9702 
-\f2 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 barbeiroId
-\f1\fs24  (String, relation to Barbeiro),\
-\ls6\ilvl1
-\f2\fs26 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	
-\f4 \uc0\u9702 
-\f2 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 clienteId
-\f1\fs24  (String, relation to Cliente),\
-\ls6\ilvl1
-\f2\fs26 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	
-\f4 \uc0\u9702 
-\f2 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 servicoId
-\f1\fs24  (String, relation to Servico),\
-\ls6\ilvl1
-\f2\fs26 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	
-\f4 \uc0\u9702 
-\f2 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 dataHoraInicio
-\f1\fs24  (DateTime),\
-\ls6\ilvl1
-\f2\fs26 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	
-\f4 \uc0\u9702 
-\f2 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 dataHoraFim
-\f1\fs24  (DateTime),\
-\ls6\ilvl1
-\f2\fs26 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	
-\f4 \uc0\u9702 
-\f2 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 status
-\f1\fs24  (String enum or String with allowed values),\
-\ls6\ilvl1
-\f2\fs26 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	
-\f4 \uc0\u9702 
-\f2 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 origem
-\f1\fs24  (String: 
-\f2\fs26 "cliente"
-\f1\fs24  or 
-\f2\fs26 "barbeiro"
-\f1\fs24 ),\
-\ls6\ilvl1
-\f2\fs26 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	
-\f4 \uc0\u9702 
-\f2 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 observacoes
-\f1\fs24  (String?). \
-\pard\tx220\tx720\pardeftab720\li720\fi-720\sa240\partightenfactor0
-\ls6\ilvl0\cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 TASK-BE-038: Define Prisma relations between models (Barbeiro\'96HorarioTrabalho, Barbeiro\'96Agendamento, Cliente\'96Agendamento, Servico\'96Agendamento). \
-\ls6\ilvl0\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 TASK-BE-039: Run 
-\f2\fs26 npx prisma migrate dev
-\f1\fs24  to create the database schema.\
-\ls6\ilvl0\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 TASK-BE-040: Update 
-\f2\fs26 src/shared/infra/database.ts
-\f1\fs24  to instantiate and export the Prisma client.\
-\pard\pardeftab720\sa280\partightenfactor0
+2. At the end of the summary, list any open questions or potential risks you see in this architecture.
 
-\f0\b\fs28 \cf0 2.3 Shared utilities and types\
-\pard\tx220\tx720\pardeftab720\li720\fi-720\sa240\partightenfactor0
-\ls7\ilvl0
-\f1\b0\fs24 \cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 TASK-BE-045: Create folder 
-\f2\fs26 src/shared/types
-\f1\fs24 .\
-\ls7\ilvl0\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 TASK-BE-046: Implement 
-\f2\fs26 src/shared/types/Result.ts
-\f1\fs24  with a generic 
-\f2\fs26 Result<T>
-\f1\fs24  type (
-\f2\fs26 success
-\f1\fs24 , 
-\f2\fs26 data
-\f1\fs24 , 
-\f2\fs26 error
-\f1\fs24 ).\
-\ls7\ilvl0\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 TASK-BE-047: Implement 
-\f2\fs26 src/shared/types/DomainError.ts
-\f1\fs24  with a base domain error class.\
-\ls7\ilvl0\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 TASK-BE-048: Create folder 
-\f2\fs26 src/shared/utils
-\f1\fs24 .\
-\ls7\ilvl0\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 TASK-BE-049: Implement 
-\f2\fs26 src/shared/utils/dateUtils.ts
-\f1\fs24  with helpers:\
-\pard\tx940\tx1440\pardeftab720\li1440\fi-1440\sa240\partightenfactor0
-\ls7\ilvl1\cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	
-\f3 \uc0\u9702 
-\f1 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 function to combine date + time,\
-\ls7\ilvl1\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	
-\f3 \uc0\u9702 
-\f1 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 function to add minutes to a Date,\
-\ls7\ilvl1\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	
-\f3 \uc0\u9702 
-\f1 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 function to check if a Date is in the future and respects a minimum lead time (in minutes).\
-\pard\pardeftab720\partightenfactor0
-\cf0 \
-\pard\pardeftab720\sa298\partightenfactor0
+PHASE 1 – Backend Project Setup
+TASK-BE-001 – Create Git repository
+I want to start a new backend project called "barbearia-agendamento-backend".
 
-\f0\b\fs36 \cf0 PHASE 3 \'96 Backend Module: Clientes\
-\pard\pardeftab720\sa240\partightenfactor0
+Write the exact Git commands I should run in an empty directory to:
+- initialize a Git repository,
+- make an initial commit with a README.
 
-\f1\b0\fs24 \cf0 Respons\'e1vel por cadastro de clientes, contador de faltas e bloqueio autom\'e1tico.\
-\pard\pardeftab720\sa280\partightenfactor0
+Return only the shell commands in order, no explanations.
 
-\f0\b\fs28 \cf0 3.1 Folder structure\
-\pard\tx220\tx720\pardeftab720\li720\fi-720\sa240\partightenfactor0
-\ls8\ilvl0
-\f1\b0\fs24 \cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 TASK-BE-100: Create folder 
-\f2\fs26 src/modules/clientes
-\f1\fs24 .\
-\ls8\ilvl0\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 TASK-BE-101: Inside 
-\f2\fs26 src/modules/clientes
-\f1\fs24 , create subfolders:\
-\pard\tx940\tx1440\pardeftab720\li1440\fi-1440\sa240\partightenfactor0
-\ls8\ilvl1
-\f2\fs26 \cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	
-\f4 \uc0\u9702 
-\f2 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 interface/http
-\f1\fs24 ,\
-\ls8\ilvl1
-\f2\fs26 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	
-\f4 \uc0\u9702 
-\f2 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 domain/entities
-\f1\fs24 ,\
-\ls8\ilvl1
-\f2\fs26 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	
-\f4 \uc0\u9702 
-\f2 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 domain/use-cases
-\f1\fs24 ,\
-\ls8\ilvl1
-\f2\fs26 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	
-\f4 \uc0\u9702 
-\f2 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 domain/rules
-\f1\fs24 ,\
-\ls8\ilvl1
-\f2\fs26 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	
-\f4 \uc0\u9702 
-\f2 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 domain/contracts
-\f1\fs24 ,\
-\ls8\ilvl1
-\f2\fs26 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	
-\f4 \uc0\u9702 
-\f2 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 infra/repositories
-\f1\fs24 ,\
-\ls8\ilvl1
-\f2\fs26 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	
-\f4 \uc0\u9702 
-\f2 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 infra/mappers
-\f1\fs24 .\
-\pard\pardeftab720\sa280\partightenfactor0
+TASK-BE-002 – Initialize Node + TS project
+Generate the exact shell commands I should run to:
 
-\f0\b\fs28 \cf0 3.2 Domain entities and rules\
-\pard\tx220\tx720\pardeftab720\li720\fi-720\sa240\partightenfactor0
-\ls9\ilvl0
-\f1\b0\fs24 \cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 TASK-BE-110: Implement 
-\f2\fs26 src/modules/clientes/domain/entities/Cliente.ts
-\f1\fs24  with a 
-\f2\fs26 Cliente
-\f1\fs24  class:\
-\pard\tx940\tx1440\pardeftab720\li1440\fi-1440\sa240\partightenfactor0
-\ls9\ilvl1\cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	
-\f3 \uc0\u9702 
-\f1 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 fields: 
-\f2\fs26 id
-\f1\fs24 , 
-\f2\fs26 nome
-\f1\fs24 , 
-\f2\fs26 telefone
-\f1\fs24 , 
-\f2\fs26 faltas
-\f1\fs24 , 
-\f2\fs26 bloqueado
-\f1\fs24 ,\
-\ls9\ilvl1\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	
-\f3 \uc0\u9702 
-\f1 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 constructor and factory/static methods as needed.\
-\pard\tx220\tx720\pardeftab720\li720\fi-720\sa240\partightenfactor0
-\ls9\ilvl0\cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 TASK-BE-111: Implement 
-\f2\fs26 src/modules/clientes/domain/rules/RegraDeBloqueioPorFaltas.ts
-\f1\fs24 :\
-\pard\tx940\tx1440\pardeftab720\li1440\fi-1440\sa240\partightenfactor0
-\ls9\ilvl1\cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	
-\f3 \uc0\u9702 
-\f1 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 function or class that takes 
-\f2\fs26 faltas
-\f1\fs24  and a 
-\f2\fs26 limit
-\f1\fs24  (default 3) and returns whether the client must be blocked. \
-\pard\pardeftab720\sa280\partightenfactor0
+1. Initialize a Node.js project with npm (creating package.json).
+2. Install TypeScript and ts-node-dev (or nodemon + ts-node) as dev dependencies.
+3. Create a basic tsconfig.json targeting Node 18+ with strict type checking.
 
-\f0\b\fs28 \cf0 3.3 Repository contracts and implementations\
-\pard\tx220\tx720\pardeftab720\li720\fi-720\sa240\partightenfactor0
-\ls10\ilvl0
-\f1\b0\fs24 \cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 TASK-BE-120: Implement interface 
-\f2\fs26 IClienteRepository
-\f1\fs24  in 
-\f2\fs26 src/modules/clientes/domain/contracts/IClienteRepository.ts
-\f1\fs24  with methods:\
-\pard\tx940\tx1440\pardeftab720\li1440\fi-1440\sa240\partightenfactor0
-\ls10\ilvl1
-\f2\fs26 \cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	
-\f4 \uc0\u9702 
-\f2 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 create(cliente: Cliente): Promise<Cliente>
-\f1\fs24 ,\
-\ls10\ilvl1
-\f2\fs26 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	
-\f4 \uc0\u9702 
-\f2 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 update(cliente: Cliente): Promise<Cliente>
-\f1\fs24 ,\
-\ls10\ilvl1
-\f2\fs26 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	
-\f4 \uc0\u9702 
-\f2 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 findById(id: string): Promise<Cliente | null>
-\f1\fs24 ,\
-\ls10\ilvl1
-\f2\fs26 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	
-\f4 \uc0\u9702 
-\f2 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 findByPhone(phone: string): Promise<Cliente | null>
-\f1\fs24 ,\
-\ls10\ilvl1
-\f2\fs26 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	
-\f4 \uc0\u9702 
-\f2 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 incrementFaltas(id: string): Promise<Cliente>
-\f1\fs24 .\
-\pard\tx220\tx720\pardeftab720\li720\fi-720\sa240\partightenfactor0
-\ls10\ilvl0\cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 TASK-BE-121: Implement 
-\f2\fs26 PrismaClienteRepository
-\f1\fs24  in 
-\f2\fs26 src/modules/clientes/infra/repositories/PrismaClienteRepository.ts
-\f1\fs24  using Prisma 
-\f2\fs26 cliente
-\f1\fs24  model.\
-\ls10\ilvl0\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 TASK-BE-122: Implement 
-\f2\fs26 ClienteMapper
-\f1\fs24  in 
-\f2\fs26 src/modules/clientes/infra/mappers/ClienteMapper.ts
-\f1\fs24  to map between Prisma types and domain 
-\f2\fs26 Cliente
-\f1\fs24 .\
-\pard\pardeftab720\sa280\partightenfactor0
+Return only the commands and, if needed, the contents of tsconfig.json in a separate code block.
 
-\f0\b\fs28 \cf0 3.4 Use cases\
-\pard\tx220\tx720\pardeftab720\li720\fi-720\sa240\partightenfactor0
-\ls11\ilvl0
-\f1\b0\fs24 \cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 TASK-BE-130: Implement use case 
-\f2\fs26 CadastrarCliente
-\f1\fs24  in 
-\f2\fs26 src/modules/clientes/domain/use-cases/CadastrarCliente.ts
-\f1\fs24 :\
-\pard\tx940\tx1440\pardeftab720\li1440\fi-1440\sa240\partightenfactor0
-\ls11\ilvl1\cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	
-\f3 \uc0\u9702 
-\f1 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 input: 
-\f2\fs26 \{ nome, telefone \}
-\f1\fs24 ,\
-\ls11\ilvl1\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	
-\f3 \uc0\u9702 
-\f1 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 validate fields,\
-\ls11\ilvl1\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	
-\f3 \uc0\u9702 
-\f1 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 ensure no duplicate phone,\
-\ls11\ilvl1\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	
-\f3 \uc0\u9702 
-\f1 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 create 
-\f2\fs26 Cliente
-\f1\fs24  with 
-\f2\fs26 faltas = 0
-\f1\fs24 , 
-\f2\fs26 bloqueado = false
-\f1\fs24 ,\
-\ls11\ilvl1\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	
-\f3 \uc0\u9702 
-\f1 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 persist via 
-\f2\fs26 IClienteRepository
-\f1\fs24 ,\
-\ls11\ilvl1\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	
-\f3 \uc0\u9702 
-\f1 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 return created client.\
-\pard\tx220\tx720\pardeftab720\li720\fi-720\sa240\partightenfactor0
-\ls11\ilvl0\cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 TASK-BE-131: Implement use case 
-\f2\fs26 AtualizarCliente
-\f1\fs24  in 
-\f2\fs26 src/modules/clientes/domain/use-cases/AtualizarCliente.ts
-\f1\fs24 :\
-\pard\tx940\tx1440\pardeftab720\li1440\fi-1440\sa240\partightenfactor0
-\ls11\ilvl1\cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	
-\f3 \uc0\u9702 
-\f1 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 input: 
-\f2\fs26 \{ id, nome?, telefone? \}
-\f1\fs24 ,\
-\ls11\ilvl1\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	
-\f3 \uc0\u9702 
-\f1 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 fetch existing client,\
-\ls11\ilvl1\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	
-\f3 \uc0\u9702 
-\f1 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 apply changes,\
-\ls11\ilvl1\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	
-\f3 \uc0\u9702 
-\f1 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 save and return.\
-\pard\tx220\tx720\pardeftab720\li720\fi-720\sa240\partightenfactor0
-\ls11\ilvl0\cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 TASK-BE-132: Implement use case 
-\f2\fs26 RegistrarFaltaCliente
-\f1\fs24  in 
-\f2\fs26 src/modules/clientes/domain/use-cases/RegistrarFaltaCliente.ts
-\f1\fs24 :\
-\pard\tx940\tx1440\pardeftab720\li1440\fi-1440\sa240\partightenfactor0
-\ls11\ilvl1\cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	
-\f3 \uc0\u9702 
-\f1 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 input: 
-\f2\fs26 \{ clienteId \}
-\f1\fs24 ,\
-\ls11\ilvl1\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	
-\f3 \uc0\u9702 
-\f1 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 load client,\
-\ls11\ilvl1\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	
-\f3 \uc0\u9702 
-\f1 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 increment 
-\f2\fs26 faltas
-\f1\fs24 ,\
-\ls11\ilvl1\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	
-\f3 \uc0\u9702 
-\f1 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 call 
-\f2\fs26 RegraDeBloqueioPorFaltas
-\f1\fs24  to set 
-\f2\fs26 bloqueado
-\f1\fs24  if needed,\
-\ls11\ilvl1\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	
-\f3 \uc0\u9702 
-\f1 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 save and return updated client.\
-\pard\tx220\tx720\pardeftab720\li720\fi-720\sa240\partightenfactor0
-\ls11\ilvl0\cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 TASK-BE-133: Implement use case 
-\f2\fs26 DesbloquearCliente
-\f1\fs24  in 
-\f2\fs26 src/modules/clientes/domain/use-cases/DesbloquearCliente.ts
-\f1\fs24 :\
-\pard\tx940\tx1440\pardeftab720\li1440\fi-1440\sa240\partightenfactor0
-\ls11\ilvl1\cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	
-\f3 \uc0\u9702 
-\f1 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 input: 
-\f2\fs26 \{ clienteId \}
-\f1\fs24 ,\
-\ls11\ilvl1\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	
-\f3 \uc0\u9702 
-\f1 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 set 
-\f2\fs26 bloqueado = false
-\f1\fs24  but keep 
-\f2\fs26 faltas
-\f1\fs24  or optionally reset (decide rule),\
-\ls11\ilvl1\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	
-\f3 \uc0\u9702 
-\f1 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 save and return.\
-\pard\pardeftab720\sa280\partightenfactor0
+TASK-BE-003 – Add npm scripts
+Given a Node + TypeScript project, update package.json to include these scripts:
 
-\f0\b\fs28 \cf0 3.5 HTTP interface\
-\pard\tx220\tx720\pardeftab720\li720\fi-720\sa240\partightenfactor0
-\ls12\ilvl0
-\f1\b0\fs24 \cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 TASK-BE-140: Implement DTOs in 
-\f2\fs26 src/modules/clientes/interface/dtos
-\f1\fs24 :\
-\pard\tx940\tx1440\pardeftab720\li1440\fi-1440\sa240\partightenfactor0
-\ls12\ilvl1
-\f2\fs26 \cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	
-\f4 \uc0\u9702 
-\f2 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 CriarClienteDTO.ts
-\f1\fs24 ,\
-\ls12\ilvl1
-\f2\fs26 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	
-\f4 \uc0\u9702 
-\f2 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 AtualizarClienteDTO.ts
-\f1\fs24 ,\
-\ls12\ilvl1
-\f2\fs26 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	
-\f4 \uc0\u9702 
-\f2 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 ClienteResponseDTO.ts
-\f1\fs24 .\
-\pard\tx220\tx720\pardeftab720\li720\fi-720\sa240\partightenfactor0
-\ls12\ilvl0\cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 TASK-BE-141: Implement 
-\f2\fs26 ClienteController
-\f1\fs24  in 
-\f2\fs26 src/modules/clientes/interface/http/ClienteController.ts
-\f1\fs24  with methods:\
-\pard\tx940\tx1440\pardeftab720\li1440\fi-1440\sa240\partightenfactor0
-\ls12\ilvl1
-\f2\fs26 \cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	
-\f4 \uc0\u9702 
-\f2 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 create
-\f1\fs24  
-\f5 \uc0\u8594 
-\f1  POST 
-\f2\fs26 /clientes
-\f1\fs24 ,\
-\ls12\ilvl1
-\f2\fs26 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	
-\f4 \uc0\u9702 
-\f2 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 update
-\f1\fs24  
-\f5 \uc0\u8594 
-\f1  PUT 
-\f2\fs26 /clientes/:id
-\f1\fs24 ,\
-\ls12\ilvl1
-\f2\fs26 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	
-\f4 \uc0\u9702 
-\f2 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 unlock
-\f1\fs24  
-\f5 \uc0\u8594 
-\f1  POST 
-\f2\fs26 /clientes/:id/desbloquear
-\f1\fs24 .\
-\pard\tx220\tx720\pardeftab720\li720\fi-720\sa240\partightenfactor0
-\ls12\ilvl0\cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 TASK-BE-142: Wire 
-\f2\fs26 ClienteController
-\f1\fs24  routes inside 
-\f2\fs26 src/main/routes.ts
-\f1\fs24  under 
-\f2\fs26 /clientes
-\f1\fs24 .\
-\pard\pardeftab720\partightenfactor0
-\cf0 \
-\pard\pardeftab720\sa298\partightenfactor0
+- "dev": run the app in development with automatic restart using ts-node-dev (or nodemon + ts-node).
+- "build": compile TypeScript from src to dist.
+- "start": run the compiled JavaScript from dist.
 
-\f0\b\fs36 \cf0 PHASE 4 \'96 Backend Module: Barbeiros\
-\pard\pardeftab720\sa240\partightenfactor0
+Return only the complete "scripts" section of package.json, valid JSON.
 
-\f1\b0\fs24 \cf0 Respons\'e1vel por cadastro de barbeiros e hor\'e1rios de trabalho.\
-\pard\pardeftab720\sa280\partightenfactor0
+TASK-BE-004 – Install backend dependencies
+Write the npm commands to install the following runtime dependencies for a REST API:
 
-\f0\b\fs28 \cf0 4.1 Folder structure\
-\pard\tx220\tx720\pardeftab720\li720\fi-720\sa240\partightenfactor0
-\ls13\ilvl0
-\f1\b0\fs24 \cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 TASK-BE-200: Create folder 
-\f2\fs26 src/modules/barbeiros
-\f1\fs24  with subfolders:\
-\pard\tx940\tx1440\pardeftab720\li1440\fi-1440\sa240\partightenfactor0
-\ls13\ilvl1
-\f2\fs26 \cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	
-\f4 \uc0\u9702 
-\f2 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 interface/http
-\f1\fs24 ,\
-\ls13\ilvl1
-\f2\fs26 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	
-\f4 \uc0\u9702 
-\f2 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 domain/entities
-\f1\fs24 ,\
-\ls13\ilvl1
-\f2\fs26 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	
-\f4 \uc0\u9702 
-\f2 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 domain/use-cases
-\f1\fs24 ,\
-\ls13\ilvl1
-\f2\fs26 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	
-\f4 \uc0\u9702 
-\f2 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 domain/contracts
-\f1\fs24 ,\
-\ls13\ilvl1
-\f2\fs26 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	
-\f4 \uc0\u9702 
-\f2 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 infra/repositories
-\f1\fs24 ,\
-\ls13\ilvl1
-\f2\fs26 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	
-\f4 \uc0\u9702 
-\f2 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 infra/mappers
-\f1\fs24 .\
-\pard\pardeftab720\sa280\partightenfactor0
+- express
+- cors
+- dotenv
+- zod (for validation)
 
-\f0\b\fs28 \cf0 4.2 Domain entities\
-\pard\tx220\tx720\pardeftab720\li720\fi-720\sa240\partightenfactor0
-\ls14\ilvl0
-\f1\b0\fs24 \cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 TASK-BE-210: Implement 
-\f2\fs26 Barbeiro
-\f1\fs24  entity in 
-\f2\fs26 src/modules/barbeiros/domain/entities/Barbeiro.ts
-\f1\fs24  with fields: 
-\f2\fs26 id
-\f1\fs24 , 
-\f2\fs26 nome
-\f1\fs24 , 
-\f2\fs26 telefone
-\f1\fs24 , 
-\f2\fs26 ativo
-\f1\fs24 .\
-\ls14\ilvl0\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 TASK-BE-211: Implement 
-\f2\fs26 HorarioTrabalho
-\f1\fs24  entity in 
-\f2\fs26 src/modules/barbeiros/domain/entities/HorarioTrabalho.ts
-\f1\fs24  with fields: 
-\f2\fs26 id
-\f1\fs24 , 
-\f2\fs26 barbeiroId
-\f1\fs24 , 
-\f2\fs26 diaSemana
-\f1\fs24 , 
-\f2\fs26 horaInicio
-\f1\fs24 , 
-\f2\fs26 horaFim
-\f1\fs24 . \
-\pard\pardeftab720\sa280\partightenfactor0
+Return only the single npm install command, no explanations.
 
-\f0\b\fs28 \cf0 4.3 Repository contracts and implementations\
-\pard\tx220\tx720\pardeftab720\li720\fi-720\sa240\partightenfactor0
-\ls15\ilvl0
-\f1\b0\fs24 \cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 TASK-BE-220: Implement 
-\f2\fs26 IBarbeiroRepository
-\f1\fs24  contract.\
-\ls15\ilvl0\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 TASK-BE-221: Implement 
-\f2\fs26 IHorarioTrabalhoRepository
-\f1\fs24  contract (methods to create, list and update working hours).\
-\ls15\ilvl0\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 TASK-BE-222: Implement 
-\f2\fs26 PrismaBarbeiroRepository
-\f1\fs24  using Prisma 
-\f2\fs26 barbeiro
-\f1\fs24 .\
-\ls15\ilvl0\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 TASK-BE-223: Implement 
-\f2\fs26 PrismaHorarioTrabalhoRepository
-\f1\fs24  using Prisma 
-\f2\fs26 horarioTrabalho
-\f1\fs24 .\
-\pard\pardeftab720\sa280\partightenfactor0
+TASK-BE-005 – Install dev dependencies
+Write the npm commands to install these dev dependencies:
 
-\f0\b\fs28 \cf0 4.4 Use cases\
-\pard\tx220\tx720\pardeftab720\li720\fi-720\sa240\partightenfactor0
-\ls16\ilvl0
-\f1\b0\fs24 \cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 TASK-BE-230: Implement 
-\f2\fs26 CadastrarBarbeiro
-\f1\fs24  use case (create active barber).\
-\ls16\ilvl0\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 TASK-BE-231: Implement 
-\f2\fs26 AtualizarBarbeiro
-\f1\fs24  use case (update fields).\
-\ls16\ilvl0\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 TASK-BE-232: Implement 
-\f2\fs26 AtivarInativarBarbeiro
-\f1\fs24  use case (toggle 
-\f2\fs26 ativo
-\f1\fs24 ).\
-\ls16\ilvl0\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 TASK-BE-233: Implement 
-\f2\fs26 ConfigurarHorarioTrabalho
-\f1\fs24  use case:\
-\pard\tx940\tx1440\pardeftab720\li1440\fi-1440\sa240\partightenfactor0
-\ls16\ilvl1\cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	
-\f3 \uc0\u9702 
-\f1 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 input: 
-\f2\fs26 \{ barbeiroId, diaSemana, horaInicio, horaFim \}
-\f1\fs24 ,\
-\ls16\ilvl1\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	
-\f3 \uc0\u9702 
-\f1 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 ensure valid time range,\
-\ls16\ilvl1\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	
-\f3 \uc0\u9702 
-\f1 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 create or update 
-\f2\fs26 HorarioTrabalho
-\f1\fs24 . \
-\pard\tx220\tx720\pardeftab720\li720\fi-720\sa240\partightenfactor0
-\ls16\ilvl0\cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 TASK-BE-234: Implement 
-\f2\fs26 ListarHorariosTrabalhoDoBarbeiro
-\f1\fs24  use case for a given 
-\f2\fs26 barbeiroId
-\f1\fs24  and optional 
-\f2\fs26 diaSemana
-\f1\fs24 .\
-\pard\pardeftab720\sa280\partightenfactor0
+- typescript
+- ts-node-dev (or nodemon + ts-node)
+- @types/node
+- @types/express
+- jest
+- ts-jest
+- supertest
 
-\f0\b\fs28 \cf0 4.5 HTTP interface\
-\pard\tx220\tx720\pardeftab720\li720\fi-720\sa240\partightenfactor0
-\ls17\ilvl0
-\f1\b0\fs24 \cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 TASK-BE-240: Implement 
-\f2\fs26 BarbeiroController
-\f1\fs24  with endpoints:\
-\pard\tx940\tx1440\pardeftab720\li1440\fi-1440\sa240\partightenfactor0
-\ls17\ilvl1\cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	
-\f3 \uc0\u9702 
-\f1 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 POST 
-\f2\fs26 /barbeiros
-\f1\fs24 ,\
-\ls17\ilvl1\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	
-\f3 \uc0\u9702 
-\f1 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 PUT 
-\f2\fs26 /barbeiros/:id
-\f1\fs24 ,\
-\ls17\ilvl1\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	
-\f3 \uc0\u9702 
-\f1 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 PATCH 
-\f2\fs26 /barbeiros/:id/status
-\f1\fs24 ,\
-\ls17\ilvl1\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	
-\f3 \uc0\u9702 
-\f1 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 GET 
-\f2\fs26 /barbeiros/:id/horarios
-\f1\fs24 ,\
-\ls17\ilvl1\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	
-\f3 \uc0\u9702 
-\f1 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 POST 
-\f2\fs26 /barbeiros/:id/horarios
-\f1\fs24 .\
-\pard\tx220\tx720\pardeftab720\li720\fi-720\sa240\partightenfactor0
-\ls17\ilvl0\cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 TASK-BE-241: Wire barber routes into 
-\f2\fs26 src/main/routes.ts
-\f1\fs24  under 
-\f2\fs26 /barbeiros
-\f1\fs24 .\
-\pard\pardeftab720\partightenfactor0
-\cf0 \
-\pard\pardeftab720\sa298\partightenfactor0
+Return only the npm command(s), optimized to use as few commands as possible.
 
-\f0\b\fs36 \cf0 PHASE 5 \'96 Backend Module: Servi\'e7os\
-\pard\pardeftab720\sa240\partightenfactor0
+TASK-BE-006 – Configure tsconfig
+Create a TypeScript configuration file for a Node 18+ backend with:
 
-\f1\b0\fs24 \cf0 Respons\'e1vel pelo cat\'e1logo de servi\'e7os (nome, dura\'e7\'e3o, pre\'e7o, ativo).\
-\pard\pardeftab720\sa280\partightenfactor0
+- "rootDir": "src"
+- "outDir": "dist"
+- "strict": true
+- module resolution compatible with Node/ESNext
+- support for ES module syntax or commonjs (choose one and be consistent)
 
-\f0\b\fs28 \cf0 5.1 Folder structure\
-\pard\tx220\tx720\pardeftab720\li720\fi-720\sa240\partightenfactor0
-\ls18\ilvl0
-\f1\b0\fs24 \cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 TASK-BE-300: Create folder 
-\f2\fs26 src/modules/servicos
-\f1\fs24  with subfolders:\
-\pard\tx940\tx1440\pardeftab720\li1440\fi-1440\sa240\partightenfactor0
-\ls18\ilvl1
-\f2\fs26 \cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	
-\f4 \uc0\u9702 
-\f2 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 interface/http
-\f1\fs24 ,\
-\ls18\ilvl1
-\f2\fs26 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	
-\f4 \uc0\u9702 
-\f2 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 domain/entities
-\f1\fs24 ,\
-\ls18\ilvl1
-\f2\fs26 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	
-\f4 \uc0\u9702 
-\f2 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 domain/use-cases
-\f1\fs24 ,\
-\ls18\ilvl1
-\f2\fs26 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	
-\f4 \uc0\u9702 
-\f2 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 domain/contracts
-\f1\fs24 ,\
-\ls18\ilvl1
-\f2\fs26 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	
-\f4 \uc0\u9702 
-\f2 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 infra/repositories
-\f1\fs24 ,\
-\ls18\ilvl1
-\f2\fs26 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	
-\f4 \uc0\u9702 
-\f2 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 infra/mappers
-\f1\fs24 .\
-\pard\pardeftab720\sa280\partightenfactor0
+Return the full contents of tsconfig.json only.
 
-\f0\b\fs28 \cf0 5.2 Domain entity\
-\pard\tx220\tx720\pardeftab720\li720\fi-720\sa240\partightenfactor0
-\ls19\ilvl0
-\f1\b0\fs24 \cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 TASK-BE-310: Implement 
-\f2\fs26 Servico
-\f1\fs24  entity in 
-\f2\fs26 src/modules/servicos/domain/entities/Servico.ts
-\f1\fs24  with fields: 
-\f2\fs26 id
-\f1\fs24 , 
-\f2\fs26 nome
-\f1\fs24 , 
-\f2\fs26 duracaoMinutos
-\f1\fs24 , 
-\f2\fs26 preco
-\f1\fs24 , 
-\f2\fs26 ativo
-\f1\fs24 . \
-\pard\pardeftab720\sa280\partightenfactor0
+TASK-BE-010 – Create app.ts
+In a Node.js + TypeScript Express project, create the file `src/main/app.ts` that:
 
-\f0\b\fs28 \cf0 5.3 Repository and use cases\
-\pard\tx220\tx720\pardeftab720\li720\fi-720\sa240\partightenfactor0
-\ls20\ilvl0
-\f1\b0\fs24 \cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 TASK-BE-320: Implement 
-\f2\fs26 IServicoRepository
-\f1\fs24  contract.\
-\ls20\ilvl0\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 TASK-BE-321: Implement 
-\f2\fs26 PrismaServicoRepository
-\f1\fs24 .\
-\ls20\ilvl0\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 TASK-BE-322: Implement 
-\f2\fs26 CadastrarServico
-\f1\fs24  use case.\
-\ls20\ilvl0\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 TASK-BE-323: Implement 
-\f2\fs26 AtualizarServico
-\f1\fs24  use case.\
-\ls20\ilvl0\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 TASK-BE-324: Implement 
-\f2\fs26 AtivarInativarServico
-\f1\fs24  use case.\
-\ls20\ilvl0\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 TASK-BE-325: Implement 
-\f2\fs26 ListarServicosAtivos
-\f1\fs24  use case (only 
-\f2\fs26 ativo = true
-\f1\fs24 ).\
-\pard\pardeftab720\sa280\partightenfactor0
+- imports express and cors,
+- creates an Express app,
+- configures JSON body parsing and CORS,
+- imports a router from `src/main/routes`,
+- mounts the router under `/`,
+- exports the Express app instance.
 
-\f0\b\fs28 \cf0 5.4 HTTP interface\
-\pard\tx220\tx720\pardeftab720\li720\fi-720\sa240\partightenfactor0
-\ls21\ilvl0
-\f1\b0\fs24 \cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 TASK-BE-330: Implement 
-\f2\fs26 ServicoController
-\f1\fs24  with endpoints:\
-\pard\tx940\tx1440\pardeftab720\li1440\fi-1440\sa240\partightenfactor0
-\ls21\ilvl1\cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	
-\f3 \uc0\u9702 
-\f1 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 POST 
-\f2\fs26 /servicos
-\f1\fs24 ,\
-\ls21\ilvl1\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	
-\f3 \uc0\u9702 
-\f1 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 PUT 
-\f2\fs26 /servicos/:id
-\f1\fs24 ,\
-\ls21\ilvl1\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	
-\f3 \uc0\u9702 
-\f1 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 PATCH 
-\f2\fs26 /servicos/:id/status
-\f1\fs24 ,\
-\ls21\ilvl1\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	
-\f3 \uc0\u9702 
-\f1 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 GET 
-\f2\fs26 /servicos
-\f1\fs24  (list active services).\
-\pard\tx220\tx720\pardeftab720\li720\fi-720\sa240\partightenfactor0
-\ls21\ilvl0\cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 TASK-BE-331: Wire service routes into 
-\f2\fs26 src/main/routes.ts
-\f1\fs24  under 
-\f2\fs26 /servicos
-\f1\fs24 .\
-\pard\pardeftab720\partightenfactor0
-\cf0 \
-\pard\pardeftab720\sa298\partightenfactor0
+Return only the complete TypeScript code for `src/main/app.ts`.
 
-\f0\b\fs36 \cf0 PHASE 6 \'96 Backend Module: Agendamentos\
-\pard\pardeftab720\sa240\partightenfactor0
+TASK-BE-011 – Create server.ts
+Create the file `src/main/server.ts` that:
 
-\f1\b0\fs24 \cf0 M\'f3dulo central: calcula disponibilidade, cria agendamentos, permite cancelar, concluir e marcar falta, atualiza contador de faltas e bloqueio.\
-\pard\pardeftab720\sa280\partightenfactor0
+- imports the Express app from `src/main/app`,
+- reads the PORT from process.env.PORT with a default (e.g. 3333),
+- starts the HTTP server and logs that it is listening.
 
-\f0\b\fs28 \cf0 6.1 Folder structure\
-\pard\tx220\tx720\pardeftab720\li720\fi-720\sa240\partightenfactor0
-\ls22\ilvl0
-\f1\b0\fs24 \cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 TASK-BE-400: Create folder 
-\f2\fs26 src/modules/agendamentos
-\f1\fs24  with subfolders:\
-\pard\tx940\tx1440\pardeftab720\li1440\fi-1440\sa240\partightenfactor0
-\ls22\ilvl1
-\f2\fs26 \cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	
-\f4 \uc0\u9702 
-\f2 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 interface/http
-\f1\fs24 ,\
-\ls22\ilvl1
-\f2\fs26 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	
-\f4 \uc0\u9702 
-\f2 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 interface/dtos
-\f1\fs24 ,\
-\ls22\ilvl1
-\f2\fs26 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	
-\f4 \uc0\u9702 
-\f2 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 domain/entities
-\f1\fs24 ,\
-\ls22\ilvl1
-\f2\fs26 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	
-\f4 \uc0\u9702 
-\f2 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 domain/use-cases
-\f1\fs24 ,\
-\ls22\ilvl1
-\f2\fs26 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	
-\f4 \uc0\u9702 
-\f2 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 domain/rules
-\f1\fs24 ,\
-\ls22\ilvl1
-\f2\fs26 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	
-\f4 \uc0\u9702 
-\f2 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 domain/contracts
-\f1\fs24 ,\
-\ls22\ilvl1
-\f2\fs26 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	
-\f4 \uc0\u9702 
-\f2 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 infra/repositories
-\f1\fs24 ,\
-\ls22\ilvl1
-\f2\fs26 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	
-\f4 \uc0\u9702 
-\f2 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 infra/mappers
-\f1\fs24 .\
-\pard\pardeftab720\sa280\partightenfactor0
+Return only the complete TypeScript code for `src/main/server.ts`.
 
-\f0\b\fs28 \cf0 6.2 Domain entity\
-\pard\tx220\tx720\pardeftab720\li720\fi-720\sa240\partightenfactor0
-\ls23\ilvl0
-\f1\b0\fs24 \cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 TASK-BE-410: Implement 
-\f2\fs26 Agendamento
-\f1\fs24  entity in 
-\f2\fs26 src/modules/agendamentos/domain/entities/Agendamento.ts
-\f1\fs24  with fields:\
-\pard\tx940\tx1440\pardeftab720\li1440\fi-1440\sa240\partightenfactor0
-\ls23\ilvl1
-\f2\fs26 \cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	
-\f4 \uc0\u9702 
-\f2 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 id
-\f1\fs24 , 
-\f2\fs26 barbeiroId
-\f1\fs24 , 
-\f2\fs26 clienteId
-\f1\fs24 , 
-\f2\fs26 servicoId
-\f1\fs24 ,\
-\ls23\ilvl1
-\f2\fs26 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	
-\f4 \uc0\u9702 
-\f2 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 dataHoraInicio
-\f1\fs24 , 
-\f2\fs26 dataHoraFim
-\f1\fs24 ,\
-\ls23\ilvl1
-\f2\fs26 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	
-\f4 \uc0\u9702 
-\f2 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 status
-\f1\fs24 , 
-\f2\fs26 origem
-\f1\fs24 , 
-\f2\fs26 observacoes?
-\f1\fs24 .\
-\pard\tx220\tx720\pardeftab720\li720\fi-720\sa240\partightenfactor0
-\ls23\ilvl0\cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 TASK-BE-411: Add methods in 
-\f2\fs26 Agendamento
-\f1\fs24  to:\
-\pard\tx940\tx1440\pardeftab720\li1440\fi-1440\sa240\partightenfactor0
-\ls23\ilvl1\cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	
-\f3 \uc0\u9702 
-\f1 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 set status to 
-\f2\fs26 CONFIRMADO
-\f1\fs24 ,\
-\ls23\ilvl1\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	
-\f3 \uc0\u9702 
-\f1 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 transition to 
-\f2\fs26 CONCLUIDO
-\f1\fs24 , 
-\f2\fs26 CANCELADO_CLIENTE
-\f1\fs24 , 
-\f2\fs26 CANCELADO_BARBEIRO
-\f1\fs24 , 
-\f2\fs26 FALTA
-\f1\fs24 ,\
-\ls23\ilvl1\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	
-\f3 \uc0\u9702 
-\f1 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 validate transitions according to the lifecycle rules. \
-\pard\pardeftab720\sa280\partightenfactor0
+TASK-BE-012 – Create routes.ts
+Create the file `src/main/routes.ts` that:
 
-\f0\b\fs28 \cf0 6.3 Repository contract and implementation\
-\pard\tx220\tx720\pardeftab720\li720\fi-720\sa240\partightenfactor0
-\ls24\ilvl0
-\f1\b0\fs24 \cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 TASK-BE-420: Implement 
-\f2\fs26 IAgendamentoRepository
-\f1\fs24  contract with methods:\
-\pard\tx940\tx1440\pardeftab720\li1440\fi-1440\sa240\partightenfactor0
-\ls24\ilvl1
-\f2\fs26 \cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	
-\f4 \uc0\u9702 
-\f2 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 create(agendamento: Agendamento): Promise<Agendamento>
-\f1\fs24 ,\
-\ls24\ilvl1
-\f2\fs26 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	
-\f4 \uc0\u9702 
-\f2 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 update(agendamento: Agendamento): Promise<Agendamento>
-\f1\fs24 ,\
-\ls24\ilvl1
-\f2\fs26 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	
-\f4 \uc0\u9702 
-\f2 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 findById(id: string): Promise<Agendamento | null>
-\f1\fs24 ,\
-\ls24\ilvl1
-\f2\fs26 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	
-\f4 \uc0\u9702 
-\f2 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 findForBarbeiroOnDay(barbeiroId: string, date: Date): Promise<Agendamento[]>
-\f1\fs24 ,\
-\ls24\ilvl1
-\f2\fs26 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	
-\f4 \uc0\u9702 
-\f2 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 findConflicting(barbeiroId: string, start: Date, end: Date): Promise<Agendamento[]>
-\f1\fs24 .\
-\pard\tx220\tx720\pardeftab720\li720\fi-720\sa240\partightenfactor0
-\ls24\ilvl0\cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 TASK-BE-421: Implement 
-\f2\fs26 PrismaAgendamentoRepository
-\f1\fs24  mapping to Prisma models.\
-\ls24\ilvl0\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 TASK-BE-422: Implement 
-\f2\fs26 AgendamentoMapper
-\f1\fs24  for Prisma 
-\f5 \uc0\u8596 
-\f1  domain mapping.\
-\pard\pardeftab720\sa280\partightenfactor0
+- imports `Router` from express,
+- instantiates a router,
+- defines placeholder routers for `/clientes`, `/barbeiros`, `/servicos`, `/agendamentos` (each can just respond with a 200 and a simple JSON for now),
+- exports the router.
 
-\f0\b\fs28 \cf0 6.4 Domain rules: slot calculation and temporal rules\
-\pard\tx220\tx720\pardeftab720\li720\fi-720\sa240\partightenfactor0
-\ls25\ilvl0
-\f1\b0\fs24 \cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 TASK-BE-430: Implement 
-\f2\fs26 ValidadorAntecedencia
-\f1\fs24  in 
-\f2\fs26 src/modules/agendamentos/domain/rules/ValidadorAntecedencia.ts
-\f1\fs24 :\
-\pard\tx940\tx1440\pardeftab720\li1440\fi-1440\sa240\partightenfactor0
-\ls25\ilvl1\cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	
-\f3 \uc0\u9702 
-\f1 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 function that checks if 
-\f2\fs26 dataHoraInicio
-\f1\fs24  is at least N minutes in the future (e.g., 60 min for V1).\
-\pard\tx220\tx720\pardeftab720\li720\fi-720\sa240\partightenfactor0
-\ls25\ilvl0\cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 TASK-BE-431: Implement 
-\f2\fs26 CalculadorDeSlots
-\f1\fs24  in 
-\f2\fs26 src/modules/agendamentos/domain/rules/CalculadorDeSlots.ts
-\f1\fs24 :\
-\pard\tx940\tx1440\pardeftab720\li1440\fi-1440\sa240\partightenfactor0
-\ls25\ilvl1\cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	
-\f3 \uc0\u9702 
-\f1 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 input: 
-\f2\fs26 horariosTrabalho
-\f1\fs24 , 
-\f2\fs26 duracaoMinutos
-\f1\fs24 , 
-\f2\fs26 agendamentosExistentes
-\f1\fs24 , 
-\f2\fs26 data
-\f1\fs24 , 
-\f2\fs26 minLeadTimeMinutes
-\f1\fs24 ,\
-\ls25\ilvl1\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	
-\f3 \uc0\u9702 
-\f1 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 output: array of slots 
-\f2\fs26 \{ inicio: Date, fim: Date \}
-\f1\fs24  that:\
-\pard\tx1660\tx2160\pardeftab720\li2160\fi-2160\sa240\partightenfactor0
-\ls25\ilvl2\cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	
-\f3 \uc0\u9642 
-\f1 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 fit inside working hours,\
-\ls25\ilvl2\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	
-\f3 \uc0\u9642 
-\f1 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 do not overlap existing CONFIRMADO appointments,\
-\ls25\ilvl2\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	
-\f3 \uc0\u9642 
-\f1 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 respect minimum lead time and ignore past times.\
-\pard\pardeftab720\sa280\partightenfactor0
+Return only the complete TypeScript code for `src/main/routes.ts`.
 
-\f0\b\fs28 \cf0 6.5 Use cases \'96 availability and scheduling\
-\pard\tx220\tx720\pardeftab720\li720\fi-720\sa240\partightenfactor0
-\ls26\ilvl0
-\f1\b0\fs24 \cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 TASK-BE-440: Implement 
-\f2\fs26 ListarHorariosDisponiveis
-\f1\fs24  use case:\
-\pard\tx940\tx1440\pardeftab720\li1440\fi-1440\sa240\partightenfactor0
-\ls26\ilvl1\cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	
-\f3 \uc0\u9702 
-\f1 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 input: 
-\f2\fs26 \{ barbeiroId, servicoId, data \}
-\f1\fs24 ,\
-\ls26\ilvl1\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	
-\f3 \uc0\u9702 
-\f1 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 load service to get 
-\f2\fs26 duracaoMinutos
-\f1\fs24 ,\
-\ls26\ilvl1\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	
-\f3 \uc0\u9702 
-\f1 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 load working hours for that barber and day of week,\
-\ls26\ilvl1\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	
-\f3 \uc0\u9702 
-\f1 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 load existing appointments for that barber on the given date (status CONFIRMADO),\
-\ls26\ilvl1\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	
-\f3 \uc0\u9702 
-\f1 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 use 
-\f2\fs26 CalculadorDeSlots
-\f1\fs24  to compute available slots,\
-\ls26\ilvl1\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	
-\f3 \uc0\u9702 
-\f1 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 return list of available slots.\
-\pard\tx220\tx720\pardeftab720\li720\fi-720\sa240\partightenfactor0
-\ls26\ilvl0\cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 TASK-BE-441: Implement 
-\f2\fs26 CriarAgendamento
-\f1\fs24  use case:\
-\pard\tx940\tx1440\pardeftab720\li1440\fi-1440\sa240\partightenfactor0
-\ls26\ilvl1\cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	
-\f3 \uc0\u9702 
-\f1 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 input: 
-\f2\fs26 \{ clienteId, barbeiroId, servicoId, dataHoraInicio, origem \}
-\f1\fs24 ,\
-\ls26\ilvl1\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	
-\f3 \uc0\u9702 
-\f1 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 load client and ensure 
-\f2\fs26 bloqueado == false
-\f1\fs24 ,\
-\ls26\ilvl1\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	
-\f3 \uc0\u9702 
-\f1 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 load service and barber,\
-\ls26\ilvl1\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	
-\f3 \uc0\u9702 
-\f1 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 compute 
-\f2\fs26 dataHoraFim
-\f1\fs24  using 
-\f2\fs26 duracaoMinutos
-\f1\fs24 ,\
-\ls26\ilvl1\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	
-\f3 \uc0\u9702 
-\f1 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 validate lead time with 
-\f2\fs26 ValidadorAntecedencia
-\f1\fs24 ,\
-\ls26\ilvl1\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	
-\f3 \uc0\u9702 
-\f1 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 check conflicts via repository,\
-\ls26\ilvl1\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	
-\f3 \uc0\u9702 
-\f1 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 create 
-\f2\fs26 Agendamento
-\f1\fs24  with 
-\f2\fs26 status = CONFIRMADO
-\f1\fs24 ,\
-\ls26\ilvl1\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	
-\f3 \uc0\u9702 
-\f1 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 save and return.\
-\pard\pardeftab720\sa280\partightenfactor0
+PHASE 2 – Shared Infrastructure and Database
+TASK-BE-020 – Create shared/infra folder
+Describe the directory and file structure I should create under `src/shared/infra` for:
 
-\f0\b\fs28 \cf0 6.6 Use cases \'96 cancel, conclude, no-show and agenda\
-\pard\tx220\tx720\pardeftab720\li720\fi-720\sa240\partightenfactor0
-\ls27\ilvl0
-\f1\b0\fs24 \cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 TASK-BE-450: Implement 
-\f2\fs26 CancelarAgendamentoCliente
-\f1\fs24  use case:\
-\pard\tx940\tx1440\pardeftab720\li1440\fi-1440\sa240\partightenfactor0
-\ls27\ilvl1\cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	
-\f3 \uc0\u9702 
-\f1 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 input: 
-\f2\fs26 \{ agendamentoId, clienteId \}
-\f1\fs24 ,\
-\ls27\ilvl1\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	
-\f3 \uc0\u9702 
-\f1 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 load appointment,\
-\ls27\ilvl1\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	
-\f3 \uc0\u9702 
-\f1 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 ensure appointment belongs to client,\
-\ls27\ilvl1\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	
-\f3 \uc0\u9702 
-\f1 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 ensure status is 
-\f2\fs26 CONFIRMADO
-\f1\fs24 ,\
-\ls27\ilvl1\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	
-\f3 \uc0\u9702 
-\f1 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 apply business rule for cancellation lead time if needed (V1 can be simple),\
-\ls27\ilvl1\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	
-\f3 \uc0\u9702 
-\f1 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 set status to 
-\f2\fs26 CANCELADO_CLIENTE
-\f1\fs24 ,\
-\ls27\ilvl1\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	
-\f3 \uc0\u9702 
-\f1 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 save and return.\
-\pard\tx220\tx720\pardeftab720\li720\fi-720\sa240\partightenfactor0
-\ls27\ilvl0\cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 TASK-BE-451: Implement 
-\f2\fs26 CancelarAgendamentoBarbeiro
-\f1\fs24  use case:\
-\pard\tx940\tx1440\pardeftab720\li1440\fi-1440\sa240\partightenfactor0
-\ls27\ilvl1\cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	
-\f3 \uc0\u9702 
-\f1 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 similar to client cancellation but checking 
-\f2\fs26 barbeiroId
-\f1\fs24  and setting status to 
-\f2\fs26 CANCELADO_BARBEIRO
-\f1\fs24 .\
-\pard\tx220\tx720\pardeftab720\li720\fi-720\sa240\partightenfactor0
-\ls27\ilvl0\cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 TASK-BE-452: Implement 
-\f2\fs26 MarcarAgendamentoConcluido
-\f1\fs24  use case:\
-\pard\tx940\tx1440\pardeftab720\li1440\fi-1440\sa240\partightenfactor0
-\ls27\ilvl1\cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	
-\f3 \uc0\u9702 
-\f1 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 input: 
-\f2\fs26 \{ agendamentoId, barbeiroId \}
-\f1\fs24 ,\
-\ls27\ilvl1\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	
-\f3 \uc0\u9702 
-\f1 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 load appointment,\
-\ls27\ilvl1\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	
-\f3 \uc0\u9702 
-\f1 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 ensure 
-\f2\fs26 barbeiroId
-\f1\fs24  matches,\
-\ls27\ilvl1\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	
-\f3 \uc0\u9702 
-\f1 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 ensure status is 
-\f2\fs26 CONFIRMADO
-\f1\fs24 ,\
-\ls27\ilvl1\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	
-\f3 \uc0\u9702 
-\f1 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 set status to 
-\f2\fs26 CONCLUIDO
-\f1\fs24 ,\
-\ls27\ilvl1\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	
-\f3 \uc0\u9702 
-\f1 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 save and return.\
-\pard\tx220\tx720\pardeftab720\li720\fi-720\sa240\partightenfactor0
-\ls27\ilvl0\cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 TASK-BE-453: Implement 
-\f2\fs26 RegistrarFaltaAgendamento
-\f1\fs24  use case:\
-\pard\tx940\tx1440\pardeftab720\li1440\fi-1440\sa240\partightenfactor0
-\ls27\ilvl1\cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	
-\f3 \uc0\u9702 
-\f1 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 input: 
-\f2\fs26 \{ agendamentoId, barbeiroId \}
-\f1\fs24 ,\
-\ls27\ilvl1\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	
-\f3 \uc0\u9702 
-\f1 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 load appointment,\
-\ls27\ilvl1\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	
-\f3 \uc0\u9702 
-\f1 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 ensure 
-\f2\fs26 barbeiroId
-\f1\fs24  matches,\
-\ls27\ilvl1\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	
-\f3 \uc0\u9702 
-\f1 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 ensure status is 
-\f2\fs26 CONFIRMADO
-\f1\fs24 ,\
-\ls27\ilvl1\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	
-\f3 \uc0\u9702 
-\f1 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 set status to 
-\f2\fs26 FALTA
-\f1\fs24 ,\
-\ls27\ilvl1\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	
-\f3 \uc0\u9702 
-\f1 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 save appointment,\
-\ls27\ilvl1\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	
-\f3 \uc0\u9702 
-\f1 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 call 
-\f2\fs26 RegistrarFaltaCliente
-\f1\fs24  from 
-\f2\fs26 clientes
-\f1\fs24  module using clientId.\
-\pard\tx220\tx720\pardeftab720\li720\fi-720\sa240\partightenfactor0
-\ls27\ilvl0\cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 TASK-BE-454: Implement 
-\f2\fs26 ListarAgendaDoDia
-\f1\fs24  use case:\
-\pard\tx940\tx1440\pardeftab720\li1440\fi-1440\sa240\partightenfactor0
-\ls27\ilvl1\cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	
-\f3 \uc0\u9702 
-\f1 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 input: 
-\f2\fs26 \{ barbeiroId, data \}
-\f1\fs24 ,\
-\ls27\ilvl1\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	
-\f3 \uc0\u9702 
-\f1 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 fetch all appointments for that barber and date,\
-\ls27\ilvl1\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	
-\f3 \uc0\u9702 
-\f1 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 return sorted by 
-\f2\fs26 dataHoraInicio
-\f1\fs24  with client and service basic info.\
-\pard\pardeftab720\sa280\partightenfactor0
+- database configuration (`database.ts`),
+- logger (`logger.ts`),
+- a potential `prisma/` folder.
 
-\f0\b\fs28 \cf0 6.7 HTTP interface\
-\pard\tx220\tx720\pardeftab720\li720\fi-720\sa240\partightenfactor0
-\ls28\ilvl0
-\f1\b0\fs24 \cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 TASK-BE-460: Implement DTOs in 
-\f2\fs26 src/modules/agendamentos/interface/dtos
-\f1\fs24 :\
-\pard\tx940\tx1440\pardeftab720\li1440\fi-1440\sa240\partightenfactor0
-\ls28\ilvl1
-\f2\fs26 \cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	
-\f4 \uc0\u9702 
-\f2 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 CriarAgendamentoDTO.ts
-\f1\fs24 ,\
-\ls28\ilvl1
-\f2\fs26 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	
-\f4 \uc0\u9702 
-\f2 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 CancelarAgendamentoDTO.ts
-\f1\fs24 ,\
-\ls28\ilvl1
-\f2\fs26 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	
-\f4 \uc0\u9702 
-\f2 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 AgendamentoResponseDTO.ts
-\f1\fs24 .\
-\pard\tx220\tx720\pardeftab720\li720\fi-720\sa240\partightenfactor0
-\ls28\ilvl0\cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 TASK-BE-461: Implement 
-\f2\fs26 AgendamentoController
-\f1\fs24  in 
-\f2\fs26 src/modules/agendamentos/interface/http/AgendamentoController.ts
-\f1\fs24  with endpoints:\
-\pard\tx940\tx1440\pardeftab720\li1440\fi-1440\sa240\partightenfactor0
-\ls28\ilvl1\cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	
-\f3 \uc0\u9702 
-\f1 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 GET 
-\f2\fs26 /disponibilidade?barbeiroId=&servicoId=&data=
-\f1\fs24  
-\f5 \uc0\u8594 
-\f1  
-\f2\fs26 ListarHorariosDisponiveis
-\f1\fs24 ,\
-\ls28\ilvl1\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	
-\f3 \uc0\u9702 
-\f1 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 POST 
-\f2\fs26 /agendamentos
-\f1\fs24  
-\f5 \uc0\u8594 
-\f1  
-\f2\fs26 CriarAgendamento
-\f1\fs24 ,\
-\ls28\ilvl1\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	
-\f3 \uc0\u9702 
-\f1 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 DELETE 
-\f2\fs26 /agendamentos/:id
-\f1\fs24  
-\f5 \uc0\u8594 
-\f1  
-\f2\fs26 CancelarAgendamentoCliente
-\f1\fs24 ,\
-\ls28\ilvl1\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	
-\f3 \uc0\u9702 
-\f1 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 DELETE 
-\f2\fs26 /agendamentos/:id/barbeiro
-\f1\fs24  
-\f5 \uc0\u8594 
-\f1  
-\f2\fs26 CancelarAgendamentoBarbeiro
-\f1\fs24 ,\
-\ls28\ilvl1\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	
-\f3 \uc0\u9702 
-\f1 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 POST 
-\f2\fs26 /agendamentos/:id/concluir
-\f1\fs24  
-\f5 \uc0\u8594 
-\f1  
-\f2\fs26 MarcarAgendamentoConcluido
-\f1\fs24 ,\
-\ls28\ilvl1\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	
-\f3 \uc0\u9702 
-\f1 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 POST 
-\f2\fs26 /agendamentos/:id/falta
-\f1\fs24  
-\f5 \uc0\u8594 
-\f1  
-\f2\fs26 RegistrarFaltaAgendamento
-\f1\fs24 ,\
-\ls28\ilvl1\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	
-\f3 \uc0\u9702 
-\f1 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 GET 
-\f2\fs26 /barbeiros/:id/agenda?data=
-\f1\fs24  
-\f5 \uc0\u8594 
-\f1  
-\f2\fs26 ListarAgendaDoDia
-\f1\fs24 . \
-\pard\tx220\tx720\pardeftab720\li720\fi-720\sa240\partightenfactor0
-\ls28\ilvl0\cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 TASK-BE-462: Wire scheduling routes into 
-\f2\fs26 src/main/routes.ts
-\f1\fs24 .\
-\pard\pardeftab720\partightenfactor0
-\cf0 \
-\pard\pardeftab720\sa298\partightenfactor0
+Return the tree structure in a code block (no code yet), starting at `src/`.
 
-\f0\b\fs36 \cf0 PHASE 7 \'96 Cross-cutting Backend Concerns\
-\pard\pardeftab720\sa280\partightenfactor0
+TASK-BE-021 – Implement database.ts stub
+Create the file `src/shared/infra/database.ts` that:
 
-\fs28 \cf0 7.1 Error handling and validation\
-\pard\tx220\tx720\pardeftab720\li720\fi-720\sa240\partightenfactor0
-\ls29\ilvl0
-\f1\b0\fs24 \cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 TASK-BE-500: Create a global error handler middleware in 
-\f2\fs26 src/main/middlewares/errorHandler.ts
-\f1\fs24 :\
-\pard\tx940\tx1440\pardeftab720\li1440\fi-1440\sa240\partightenfactor0
-\ls29\ilvl1\cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	
-\f3 \uc0\u9702 
-\f1 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 converts domain errors into proper HTTP responses,\
-\ls29\ilvl1\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	
-\f3 \uc0\u9702 
-\f1 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 catches unexpected errors and logs them.\
-\pard\tx220\tx720\pardeftab720\li720\fi-720\sa240\partightenfactor0
-\ls29\ilvl0\cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 TASK-BE-501: Integrate the error handler into 
-\f2\fs26 src/main/app.ts
-\f1\fs24 .\
-\ls29\ilvl0\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 TASK-BE-502: Use 
-\f2\fs26 zod
-\f1\fs24  (or similar) schemas in controllers to validate request payloads before calling use cases.\
-\pard\pardeftab720\sa280\partightenfactor0
+- imports and configures dotenv to load environment variables,
+- exports a placeholder object named `db` (for now, just an empty object or a simple interface) to be replaced by a Prisma client later.
 
-\f0\b\fs28 \cf0 7.2 Basic authentication placeholder (optional for V1)\
-\pard\tx220\tx720\pardeftab720\li720\fi-720\sa240\partightenfactor0
-\ls30\ilvl0
-\f1\b0\fs24 \cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 TASK-BE-510: Create 
-\f2\fs26 src/shared/auth/middleware.ts
-\f1\fs24  with a simple stub authentication (or API key) if needed.\
-\ls30\ilvl0\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 TASK-BE-511: Protect barber-only endpoints (agenda, conclude, no-show, cancel) with this middleware.\
-\pard\pardeftab720\partightenfactor0
-\cf0 \
-\pard\pardeftab720\sa298\partightenfactor0
+Return only the TypeScript code for `database.ts`.
 
-\f0\b\fs36 \cf0 PHASE 8 \'96 Frontend Web (Client and Barber UI)\
-\pard\pardeftab720\sa240\partightenfactor0
+TASK-BE-022 – Implement logger.ts
+Create the file `src/shared/infra/logger.ts` with a simple logger implementation that:
 
-\f1\b0\fs24 \cf0 V1 requires: client can self-schedule; barber can see and control agenda, mark CONCLUIDO / FALTA / CANCELADO.\
-\pard\pardeftab720\sa280\partightenfactor0
+- exports `logger` with methods: `info`, `error`, and `warn`,
+- each method simply delegates to `console.log`, `console.error`, or `console.warn` and prefixes messages with a level tag.
 
-\f0\b\fs28 \cf0 8.1 Frontend project setup\
-\pard\tx220\tx720\pardeftab720\li720\fi-720\sa240\partightenfactor0
-\ls31\ilvl0
-\f1\b0\fs24 \cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 TASK-FE-001: Create a 
-\f2\fs26 barbearia-agendamento-frontend
-\f1\fs24  React + TypeScript project (e.g., with Vite or Create React App).\
-\ls31\ilvl0\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 TASK-FE-002: Configure routing (React Router or similar).\
-\ls31\ilvl0\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 TASK-FE-003: Configure a simple HTTP client (Axios or Fetch wrapper) with base URL of the backend.\
-\pard\pardeftab720\sa280\partightenfactor0
+Return only the TypeScript code for `logger.ts`.
 
-\f0\b\fs28 \cf0 8.2 Client booking flow\
-\pard\tx220\tx720\pardeftab720\li720\fi-720\sa240\partightenfactor0
-\ls32\ilvl0
-\f1\b0\fs24 \cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 TASK-FE-010: Implement a \'93Choose Barber\'94 page:\
-\pard\tx940\tx1440\pardeftab720\li1440\fi-1440\sa240\partightenfactor0
-\ls32\ilvl1\cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	
-\f3 \uc0\u9702 
-\f1 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 fetch 
-\f2\fs26 /barbeiros
-\f1\fs24  (you may add a simple GET list endpoint),\
-\ls32\ilvl1\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	
-\f3 \uc0\u9702 
-\f1 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 show list of active barbers.\
-\pard\tx220\tx720\pardeftab720\li720\fi-720\sa240\partightenfactor0
-\ls32\ilvl0\cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 TASK-FE-011: Implement a \'93Choose Service\'94 page:\
-\pard\tx940\tx1440\pardeftab720\li1440\fi-1440\sa240\partightenfactor0
-\ls32\ilvl1\cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	
-\f3 \uc0\u9702 
-\f1 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 fetch 
-\f2\fs26 /servicos
-\f1\fs24 ,\
-\ls32\ilvl1\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	
-\f3 \uc0\u9702 
-\f1 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 allow user to select one service.\
-\pard\tx220\tx720\pardeftab720\li720\fi-720\sa240\partightenfactor0
-\ls32\ilvl0\cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 TASK-FE-012: Implement a \'93Choose Date\'94 step:\
-\pard\tx940\tx1440\pardeftab720\li1440\fi-1440\sa240\partightenfactor0
-\ls32\ilvl1\cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	
-\f3 \uc0\u9702 
-\f1 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 allow picking a day in a calendar,\
-\ls32\ilvl1\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	
-\f3 \uc0\u9702 
-\f1 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 send selected date to availability endpoint.\
-\pard\tx220\tx720\pardeftab720\li720\fi-720\sa240\partightenfactor0
-\ls32\ilvl0\cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 TASK-FE-013: Implement a \'93Choose Time Slot\'94 step:\
-\pard\tx940\tx1440\pardeftab720\li1440\fi-1440\sa240\partightenfactor0
-\ls32\ilvl1\cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	
-\f3 \uc0\u9702 
-\f1 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 call 
-\f2\fs26 GET /disponibilidade
-\f1\fs24  with 
-\f2\fs26 barbeiroId
-\f1\fs24 , 
-\f2\fs26 servicoId
-\f1\fs24 , 
-\f2\fs26 data
-\f1\fs24 ,\
-\ls32\ilvl1\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	
-\f3 \uc0\u9702 
-\f1 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 display available slots,\
-\ls32\ilvl1\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	
-\f3 \uc0\u9702 
-\f1 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 allow user to pick one.\
-\pard\tx220\tx720\pardeftab720\li720\fi-720\sa240\partightenfactor0
-\ls32\ilvl0\cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 TASK-FE-014: Implement a \'93Confirm Booking\'94 step:\
-\pard\tx940\tx1440\pardeftab720\li1440\fi-1440\sa240\partightenfactor0
-\ls32\ilvl1\cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	
-\f3 \uc0\u9702 
-\f1 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 collect client name and phone,\
-\ls32\ilvl1\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	
-\f3 \uc0\u9702 
-\f1 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 create or fetch client via 
-\f2\fs26 /clientes
-\f1\fs24 ,\
-\ls32\ilvl1\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	
-\f3 \uc0\u9702 
-\f1 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 call 
-\f2\fs26 POST /agendamentos
-\f1\fs24  to create the appointment,\
-\ls32\ilvl1\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	
-\f3 \uc0\u9702 
-\f1 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 show success / error message.\
-\pard\pardeftab720\sa280\partightenfactor0
+TASK-BE-030 – Install Prisma
+Generate the npm commands to:
 
-\f0\b\fs28 \cf0 8.3 Barber agenda view\
-\pard\tx220\tx720\pardeftab720\li720\fi-720\sa240\partightenfactor0
-\ls33\ilvl0
-\f1\b0\fs24 \cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 TASK-FE-020: Implement a \'93Barber Login or Simple Switch\'94 (for V1, can be a simple select of barber without full auth).\
-\ls33\ilvl0\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 TASK-FE-021: Implement an \'93Agenda do Dia\'94 page:\
-\pard\tx940\tx1440\pardeftab720\li1440\fi-1440\sa240\partightenfactor0
-\ls33\ilvl1\cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	
-\f3 \uc0\u9702 
-\f1 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 select date and barber,\
-\ls33\ilvl1\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	
-\f3 \uc0\u9702 
-\f1 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 call 
-\f2\fs26 GET /barbeiros/:id/agenda?data=
-\f1\fs24 ,\
-\ls33\ilvl1\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	
-\f3 \uc0\u9702 
-\f1 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 display a list of appointments with time, client name, service and status.\
-\pard\tx220\tx720\pardeftab720\li720\fi-720\sa240\partightenfactor0
-\ls33\ilvl0\cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 TASK-FE-022: In the agenda list, add actions:\
-\pard\tx940\tx1440\pardeftab720\li1440\fi-1440\sa240\partightenfactor0
-\ls33\ilvl1\cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	
-\f3 \uc0\u9702 
-\f1 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 \'93Concluir\'94 
-\f5 \uc0\u8594 
-\f1  call 
-\f2\fs26 POST /agendamentos/:id/concluir
-\f1\fs24 ,\
-\ls33\ilvl1\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	
-\f3 \uc0\u9702 
-\f1 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 \'93Falta\'94 
-\f5 \uc0\u8594 
-\f1  call 
-\f2\fs26 POST /agendamentos/:id/falta
-\f1\fs24 ,\
-\ls33\ilvl1\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	
-\f3 \uc0\u9702 
-\f1 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 \'93Cancelar\'94 
-\f5 \uc0\u8594 
-\f1  call 
-\f2\fs26 DELETE /agendamentos/:id/barbeiro
-\f1\fs24 .\
-\pard\tx220\tx720\pardeftab720\li720\fi-720\sa240\partightenfactor0
-\ls33\ilvl0\cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 TASK-FE-023: After each action, refresh the agenda list so the status reflects 
-\f2\fs26 CONCLUIDO
-\f1\fs24 , 
-\f2\fs26 CANCELADO_BARBEIRO
-\f1\fs24  or 
-\f2\fs26 FALTA
-\f1\fs24 .\
-\pard\pardeftab720\sa280\partightenfactor0
+1. Install Prisma and the Prisma client in a Node.js project.
+2. Initialize Prisma to create a default `prisma/schema.prisma` and `.env` file.
 
-\f0\b\fs28 \cf0 8.4 Basic admin screens (optional but useful for V1)\
-\pard\tx220\tx720\pardeftab720\li720\fi-720\sa240\partightenfactor0
-\ls34\ilvl0
-\f1\b0\fs24 \cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 TASK-FE-030: Implement a simple \'93Manage Services\'94 page:\
-\pard\tx940\tx1440\pardeftab720\li1440\fi-1440\sa240\partightenfactor0
-\ls34\ilvl1\cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	
-\f3 \uc0\u9702 
-\f1 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 list services,\
-\ls34\ilvl1\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	
-\f3 \uc0\u9702 
-\f1 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 create, edit, activate/deactivate.\
-\pard\tx220\tx720\pardeftab720\li720\fi-720\sa240\partightenfactor0
-\ls34\ilvl0\cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 TASK-FE-031: Implement a simple \'93Manage Barbers\'94 page:\
-\pard\tx940\tx1440\pardeftab720\li1440\fi-1440\sa240\partightenfactor0
-\ls34\ilvl1\cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	
-\f3 \uc0\u9702 
-\f1 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 list barbers,\
-\ls34\ilvl1\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	
-\f3 \uc0\u9702 
-\f1 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 create, edit, activate/deactivate,\
-\ls34\ilvl1\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	
-\f3 \uc0\u9702 
-\f1 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 configure working hours.\
-\pard\tx220\tx720\pardeftab720\li720\fi-720\sa240\partightenfactor0
-\ls34\ilvl0\cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 TASK-FE-032: Implement a simple \'93Manage Clients\'94 page:\
-\pard\tx940\tx1440\pardeftab720\li1440\fi-1440\sa240\partightenfactor0
-\ls34\ilvl1\cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	
-\f3 \uc0\u9702 
-\f1 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 list clients,\
-\ls34\ilvl1\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	
-\f3 \uc0\u9702 
-\f1 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 show 
-\f2\fs26 faltas
-\f1\fs24  and 
-\f2\fs26 bloqueado
-\f1\fs24 ,\
-\ls34\ilvl1\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	
-\f3 \uc0\u9702 
-\f1 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 manual \'93unlock\'94 button calling 
-\f2\fs26 /clientes/:id/desbloquear
-\f1\fs24 .\
-\pard\pardeftab720\partightenfactor0
-\cf0 \
-\pard\pardeftab720\sa298\partightenfactor0
+Return only the commands, in order.
 
-\f0\b\fs36 \cf0 PHASE 9 \'96 Testing and Quality\
-\pard\pardeftab720\sa280\partightenfactor0
+TASK-BE-031 – Initialize Prisma
+Assume Prisma is installed. Generate the command to initialize Prisma in the project, creating the `prisma` folder and `schema.prisma`.
 
-\fs28 \cf0 9.1 Backend tests\
-\pard\tx220\tx720\pardeftab720\li720\fi-720\sa240\partightenfactor0
-\ls35\ilvl0
-\f1\b0\fs24 \cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 TASK-QA-001: Configure Jest for TypeScript tests.\
-\ls35\ilvl0\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 TASK-QA-002: Write unit tests for 
-\f2\fs26 RegraDeBloqueioPorFaltas
-\f1\fs24 :\
-\pard\tx940\tx1440\pardeftab720\li1440\fi-1440\sa240\partightenfactor0
-\ls35\ilvl1\cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	
-\f3 \uc0\u9702 
-\f1 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 ensure that 
-\f2\fs26 faltas < limit
-\f1\fs24  does not block,\
-\ls35\ilvl1\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	
-\f3 \uc0\u9702 
-\f1 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 ensure that 
-\f2\fs26 faltas >= limit
-\f1\fs24  sets 
-\f2\fs26 bloqueado = true
-\f1\fs24 .\
-\pard\tx220\tx720\pardeftab720\li720\fi-720\sa240\partightenfactor0
-\ls35\ilvl0\cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 TASK-QA-003: Write unit tests for 
-\f2\fs26 CalculadorDeSlots
-\f1\fs24 :\
-\pard\tx940\tx1440\pardeftab720\li1440\fi-1440\sa240\partightenfactor0
-\ls35\ilvl1\cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	
-\f3 \uc0\u9702 
-\f1 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 generate correct slots inside working hours,\
-\ls35\ilvl1\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	
-\f3 \uc0\u9702 
-\f1 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 remove slots overlapping existing appointments,\
-\ls35\ilvl1\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	
-\f3 \uc0\u9702 
-\f1 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 remove slots that violate lead time or are in the past.\
-\pard\tx220\tx720\pardeftab720\li720\fi-720\sa240\partightenfactor0
-\ls35\ilvl0\cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 TASK-QA-004: Write unit tests for 
-\f2\fs26 CriarAgendamento
-\f1\fs24 :\
-\pard\tx940\tx1440\pardeftab720\li1440\fi-1440\sa240\partightenfactor0
-\ls35\ilvl1\cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	
-\f3 \uc0\u9702 
-\f1 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 cannot schedule with blocked client,\
-\ls35\ilvl1\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	
-\f3 \uc0\u9702 
-\f1 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 cannot schedule with conflicting appointment,\
-\ls35\ilvl1\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	
-\f3 \uc0\u9702 
-\f1 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 cannot schedule violating lead time,\
-\ls35\ilvl1\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	
-\f3 \uc0\u9702 
-\f1 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 success path returns CONFIRMADO appointment.\
-\pard\tx220\tx720\pardeftab720\li720\fi-720\sa240\partightenfactor0
-\ls35\ilvl0\cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 TASK-QA-005: Write unit tests for 
-\f2\fs26 RegistrarFaltaAgendamento
-\f1\fs24 :\
-\pard\tx940\tx1440\pardeftab720\li1440\fi-1440\sa240\partightenfactor0
-\ls35\ilvl1\cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	
-\f3 \uc0\u9702 
-\f1 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 status changes to FALTA,\
-\ls35\ilvl1\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	
-\f3 \uc0\u9702 
-\f1 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 client 
-\f2\fs26 faltas
-\f1\fs24  increments and blocks after reaching limit.\
-\pard\pardeftab720\sa280\partightenfactor0
+Return only that command and nothing else.
 
-\f0\b\fs28 \cf0 9.2 Integration and end-to-end tests\
-\pard\tx220\tx720\pardeftab720\li720\fi-720\sa240\partightenfactor0
-\ls36\ilvl0
-\f1\b0\fs24 \cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 TASK-QA-010: Implement API integration tests for main flows:\
-\pard\tx940\tx1440\pardeftab720\li1440\fi-1440\sa240\partightenfactor0
-\ls36\ilvl1\cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	
-\f3 \uc0\u9702 
-\f1 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 create barber, configure working hours,\
-\ls36\ilvl1\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	
-\f3 \uc0\u9702 
-\f1 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 create service,\
-\ls36\ilvl1\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	
-\f3 \uc0\u9702 
-\f1 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 create client,\
-\ls36\ilvl1\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	
-\f3 \uc0\u9702 
-\f1 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 list availability and create appointment,\
-\ls36\ilvl1\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	
-\f3 \uc0\u9702 
-\f1 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 cancel and mark as concluded or no-show.\
-\pard\tx220\tx720\pardeftab720\li720\fi-720\sa240\partightenfactor0
-\ls36\ilvl0\cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 TASK-QA-011: Implement basic E2E tests for the frontend (e.g., with Playwright or Cypress):\
-\pard\tx940\tx1440\pardeftab720\li1440\fi-1440\sa240\partightenfactor0
-\ls36\ilvl1\cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	
-\f3 \uc0\u9702 
-\f1 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 client completes full booking flow,\
-\ls36\ilvl1\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	
-\f3 \uc0\u9702 
-\f1 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 barber sees appointment in agenda and updates status.\
-\pard\pardeftab720\partightenfactor0
-\cf0 \
-\pard\pardeftab720\sa298\partightenfactor0
+TASK-BE-032 – Configure DATABASE_URL
+Provide an example `.env` file for this project that defines:
 
-\f0\b\fs36 \cf0 PHASE 10 \'96 Deployment and Delivery\
-\pard\pardeftab720\sa280\partightenfactor0
+- `DATABASE_URL` pointing to a local PostgreSQL database called `barbearia_agendamento`,
+- `PORT=3333`.
 
-\fs28 \cf0 10.1 Backend deployment\
-\pard\tx220\tx720\pardeftab720\li720\fi-720\sa240\partightenfactor0
-\ls37\ilvl0
-\f1\b0\fs24 \cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 TASK-OPS-001: Create a 
-\f2\fs26 Dockerfile
-\f1\fs24  for the backend building the TypeScript code and running the Express app.\
-\ls37\ilvl0\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 TASK-OPS-002: Create a 
-\f2\fs26 docker-compose.yml
-\f1\fs24  (or similar) to run backend + PostgreSQL together.\
-\ls37\ilvl0\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 TASK-OPS-003: Configure environment variables (.env) for production (DATABASE_URL, PORT, etc.).\
-\ls37\ilvl0\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 TASK-OPS-004: Set up a simple CI pipeline to:\
-\pard\tx940\tx1440\pardeftab720\li1440\fi-1440\sa240\partightenfactor0
-\ls37\ilvl1\cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	
-\f3 \uc0\u9702 
-\f1 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 run tests on push,\
-\ls37\ilvl1\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	
-\f3 \uc0\u9702 
-\f1 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 build the project,\
-\ls37\ilvl1\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	
-\f3 \uc0\u9702 
-\f1 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 optionally build Docker image.\
-\pard\pardeftab720\sa280\partightenfactor0
+Return only the complete contents of `.env.example`, not `.env`, and comment that developers should copy it to `.env`.
 
-\f0\b\fs28 \cf0 10.2 Frontend deployment\
-\pard\tx220\tx720\pardeftab720\li720\fi-720\sa240\partightenfactor0
-\ls38\ilvl0
-\f1\b0\fs24 \cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 TASK-OPS-010: Configure frontend build script (
-\f2\fs26 npm run build
-\f1\fs24 ).\
-\ls38\ilvl0\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 TASK-OPS-011: Configure hosting (e.g., static hosting or CDN) for the built frontend.\
-\ls38\ilvl0\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 TASK-OPS-012: Configure environment variable in frontend for backend API base URL.\
-\pard\pardeftab720\sa280\partightenfactor0
+TASK-BE-033 – Define Barbeiro model
+In `prisma/schema.prisma`, define a Prisma model `Barbeiro` with fields:
 
-\f0\b\fs28 \cf0 10.3 V1 acceptance checklist\
-\pard\tx220\tx720\pardeftab720\li720\fi-720\sa240\partightenfactor0
-\ls39\ilvl0
-\f1\b0\fs24 \cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 TASK-OPS-020: Verify that a client can:\
-\pard\tx940\tx1440\pardeftab720\li1440\fi-1440\sa240\partightenfactor0
-\ls39\ilvl1\cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	
-\f3 \uc0\u9702 
-\f1 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 choose barber, service, date and time slot,\
-\ls39\ilvl1\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	
-\f3 \uc0\u9702 
-\f1 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 create an appointment,\
-\ls39\ilvl1\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	
-\f3 \uc0\u9702 
-\f1 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 see error if blocked or trying to book too late. \
-\pard\tx220\tx720\pardeftab720\li720\fi-720\sa240\partightenfactor0
-\ls39\ilvl0\cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 TASK-OPS-021: Verify that a barber can:\
-\pard\tx940\tx1440\pardeftab720\li1440\fi-1440\sa240\partightenfactor0
-\ls39\ilvl1\cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	
-\f3 \uc0\u9702 
-\f1 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 see the day agenda in one screen,\
-\ls39\ilvl1\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	
-\f3 \uc0\u9702 
-\f1 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 mark each appointment as 
-\f2\fs26 CONCLUIDO
-\f1\fs24 , 
-\f2\fs26 CANCELADO_CLIENTE
-\f1\fs24 , 
-\f2\fs26 CANCELADO_BARBEIRO
-\f1\fs24  or 
-\f2\fs26 FALTA
-\f1\fs24 .\
-\pard\tx220\tx720\pardeftab720\li720\fi-720\sa240\partightenfactor0
-\ls39\ilvl0\cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 TASK-OPS-022: Verify that clients with many no-shows are automatically blocked and cannot create new appointments\
-}
+- id: String @id @default(uuid())
+- nome: String
+- telefone: String
+- ativo: Boolean
+- corAgenda: String? (optional)
+
+Return only the Prisma model definition for `Barbeiro`.
+
+TASK-BE-034 – Define Cliente model
+In `prisma/schema.prisma`, define a Prisma model `Cliente` with fields:
+
+- id: String @id @default(uuid())
+- nome: String
+- telefone: String
+- faltas: Int @default(0)
+- bloqueado: Boolean @default(false)
+
+Return only the Prisma model definition for `Cliente`.
+
+TASK-BE-035 – Define Servico model
+In `prisma/schema.prisma`, define a Prisma model `Servico` with fields:
+
+- id: String @id @default(uuid())
+- nome: String
+- duracaoMinutos: Int
+- preco: Decimal
+- ativo: Boolean
+
+Include a proper Decimal configuration if needed.
+
+Return only the Prisma model definition for `Servico`.
+
+TASK-BE-036 – Define HorarioTrabalho model
+In `prisma/schema.prisma`, define a Prisma model `HorarioTrabalho` with fields:
+
+- id: String @id @default(uuid())
+- barbeiroId: String
+- diaSemana: Int
+- horaInicio: DateTime
+- horaFim: DateTime
+
+Also add a relation to `Barbeiro` via `barbeiroId`.
+
+Return only the Prisma model definition for `HorarioTrabalho` including the relation.
+
+TASK-BE-037 – Define Agendamento model
+In `prisma/schema.prisma`, define a Prisma model `Agendamento` with fields:
+
+- id: String @id @default(uuid())
+- barbeiroId: String
+- clienteId: String
+- servicoId: String
+- dataHoraInicio: DateTime
+- dataHoraFim: DateTime
+- status: String
+- origem: String
+- observacoes: String?
+
+Add relations to `Barbeiro`, `Cliente`, and `Servico` via their respective IDs.
+
+Return only the Prisma model definition for `Agendamento` including all relations.
+
+TASK-BE-038 – Wire relations between models
+Combine the previously created Prisma models (`Barbeiro`, `Cliente`, `Servico`, `HorarioTrabalho`, `Agendamento`) into a consistent `schema.prisma` snippet where:
+
+- Barbeiro has one-to-many HorarioTrabalho and Agendamento.
+- Cliente has one-to-many Agendamento.
+- Servico has one-to-many Agendamento.
+
+Return only the full `schema.prisma` contents for these models including datasource and generator blocks (PostgreSQL + PrismaClient).
+
+TASK-BE-039 – Run migrations
+Generate the exact command to run Prisma migrations in development, creating the database tables from schema.prisma.
+
+Assume the migration name should be "init". Return only the single command.
+
+TASK-BE-040 – Export Prisma client in database.ts
+Update `src/shared/infra/database.ts` to:
+
+- import `PrismaClient` from `@prisma/client`,
+- instantiate a single PrismaClient,
+- export it as `prisma`,
+- handle basic process exit (if needed).
+
+Return only the updated TypeScript code for `database.ts`.
+
+TASK-BE-045 – Create shared/types folder
+Describe the folder structure under `src/shared/types` that will hold:
+
+- a generic Result type,
+- a DomainError type.
+
+Return the directory tree in a code block, starting at `src/`.
+
+TASK-BE-046 – Implement Result type
+Create the file `src/shared/types/Result.ts` that defines a generic Result type with:
+
+- `success: boolean`
+- `data?: T`
+- `error?: string`
+
+Export a TypeScript type or interface and, optionally, helper factory functions `ok(data)` and `fail(error)`.
+
+Return only the TypeScript code.
+
+TASK-BE-047 – Implement DomainError type
+Create the file `src/shared/types/DomainError.ts` that:
+
+- exports a class `DomainError` extending `Error`,
+- has a `code: string` property,
+- accepts `message` and `code` in the constructor.
+
+Return only the TypeScript code.
+
+TASK-BE-048 – Create shared/utils folder
+Describe the folder and file structure for `src/shared/utils`, including:
+
+- `dateUtils.ts`
+- `validationUtils.ts`
+
+Return the directory tree listing these files.
+
+TASK-BE-049 – Implement dateUtils
+Create `src/shared/utils/dateUtils.ts` with helper functions:
+
+- `combineDateAndTime(date: Date, time: string): Date`
+- `addMinutes(date: Date, minutes: number): Date`
+- `isAtLeastMinutesFromNow(date: Date, minutes: number): boolean`
+
+Return only the TypeScript code for these utilities.
+
+PHASE 3 – Backend Module: Clientes
+TASK-BE-100 – Create clientes module folder structure
+Describe the folder structure that should be created for the `clientes` module under `src/modules/clientes` with subfolders:
+
+- interface/http
+- interface/dtos
+- domain/entities
+- domain/use-cases
+- domain/rules
+- domain/contracts
+- infra/repositories
+- infra/mappers
+
+Return the directory tree starting at `src/modules/clientes`.
+
+TASK-BE-101 – Physically create folders (script)
+Generate a POSIX shell script (bash) that, when run from the project root, creates all folders required for the `clientes` module as described previously.
+
+Return only the shell script.
+
+TASK-BE-110 – Implement Cliente entity
+Create `src/modules/clientes/domain/entities/Cliente.ts` that defines a TypeScript class `Cliente` with fields:
+
+- id: string
+- nome: string
+- telefone: string
+- faltas: number
+- bloqueado: boolean
+
+Include:
+- a constructor or static factory method,
+- simple methods to increment faltas and to block/unblock the client.
+
+Return only the TypeScript code.
+
+TASK-BE-111 – Implement RegraDeBloqueioPorFaltas
+Create `src/modules/clientes/domain/rules/RegraDeBloqueioPorFaltas.ts` that exports a function:
+
+`shouldBlockClient(faltas: number, limit: number): boolean`
+
+The function returns true when `faltas >= limit`.
+
+Return only the TypeScript code.
+
+TASK-BE-120 – Define IClienteRepository interface
+Create `src/modules/clientes/domain/contracts/IClienteRepository.ts` that exports a TypeScript interface `IClienteRepository` with methods:
+
+- `create(cliente: Cliente): Promise<Cliente>`
+- `update(cliente: Cliente): Promise<Cliente>`
+- `findById(id: string): Promise<Cliente | null>`
+- `findByPhone(phone: string): Promise<Cliente | null>`
+- `incrementFaltas(id: string): Promise<Cliente>`
+
+Import `Cliente` from the entities folder. Return only the TypeScript code.
+
+TASK-BE-121 – Implement PrismaClienteRepository
+Create `src/modules/clientes/infra/repositories/PrismaClienteRepository.ts` that:
+
+- imports `prisma` from `src/shared/infra/database`,
+- implements `IClienteRepository`,
+- maps between Prisma's `cliente` model and the domain `Cliente` entity,
+- provides concrete implementations for all interface methods.
+
+Use a separate `ClienteMapper` class if needed, but keep this file focused on repository logic.
+
+Return only the TypeScript code for `PrismaClienteRepository`.
+
+TASK-BE-122 – Implement ClienteMapper
+Create `src/modules/clientes/infra/mappers/ClienteMapper.ts` that:
+
+- exports functions to convert between Prisma `Cliente` records and the domain `Cliente` entity:
+  - `toDomain(prismaCliente): Cliente`
+  - `toPrisma(cliente: Cliente): any` (Prisma create/update input)
+
+Return only the TypeScript code.
+
+TASK-BE-130 – Implement CadastrarCliente use case
+Create `src/modules/clientes/domain/use-cases/CadastrarCliente.ts` that defines a use case class `CadastrarCliente` with a method `execute(input)` where:
+
+- `input` has: `nome: string`, `telefone: string`.
+- It uses `IClienteRepository` injected via constructor.
+- It validates required fields (non-empty).
+- It checks if a client with the same phone already exists and fails if so.
+- It creates a new `Cliente` with faltas = 0 and bloqueado = false.
+- It saves the client and returns it (or a Result wrapper if you prefer).
+
+Return only the TypeScript code for this use case.
+
+TASK-BE-131 – Implement AtualizarCliente use case
+Create `src/modules/clientes/domain/use-cases/AtualizarCliente.ts` with a class `AtualizarCliente` that:
+
+- has an `execute(input)` method with: `id: string`, optional `nome?: string`, optional `telefone?: string`,
+- loads the client by id,
+- applies changes to nome/telefone if provided,
+- persists the updated client,
+- returns the updated client.
+
+Use `IClienteRepository` via constructor injection. Return only the TypeScript code.
+
+TASK-BE-132 – Implement RegistrarFaltaCliente use case
+Create `src/modules/clientes/domain/use-cases/RegistrarFaltaCliente.ts` with a class `RegistrarFaltaCliente` that:
+
+- has an `execute({ clienteId, limitFaltas })` method (limitFaltas with a default like 3),
+- loads the client by id,
+- increments the faltas count,
+- uses `shouldBlockClient` from `RegraDeBloqueioPorFaltas` to set `bloqueado` when faltas >= limit,
+- saves the client and returns the updated client.
+
+Use `IClienteRepository` via constructor injection. Return only the TypeScript code.
+
+TASK-BE-133 – Implement DesbloquearCliente use case
+Create `src/modules/clientes/domain/use-cases/DesbloquearCliente.ts` with a class `DesbloquearCliente` that:
+
+- has an `execute({ clienteId })` method,
+- loads the client,
+- sets `bloqueado = false` (you can keep faltas as is),
+- saves and returns the updated client.
+
+Use `IClienteRepository`. Return only the TypeScript code.
+
+TASK-BE-140 – Define cliente DTOs
+Under `src/modules/clientes/interface/dtos`, create:
+
+1. `CriarClienteDTO.ts` – define the shape of the request body for creating a client: nome, telefone.
+2. `AtualizarClienteDTO.ts` – define optional fields for updating: nome?, telefone?.
+3. `ClienteResponseDTO.ts` – define the shape returned to API consumers, hiding any internal-only fields if needed.
+
+Use TypeScript types or interfaces and export them. Return only the TypeScript code for all three files, clearly separated.
+
+TASK-BE-141 – Implement ClienteController
+Create `src/modules/clientes/interface/http/ClienteController.ts` that exports a class or a set of handler functions for:
+
+- POST `/clientes` → uses `CadastrarCliente`,
+- PUT `/clientes/:id` → uses `AtualizarCliente`,
+- POST `/clientes/:id/desbloquear` → uses `DesbloquearCliente`.
+
+Each handler should:
+- validate the request body with zod (or a simple manual check),
+- call the corresponding use case,
+- return appropriate HTTP status codes and JSON.
+
+Return only the TypeScript code.
+
+TASK-BE-142 – Wire clientes routes in main router
+Update `src/main/routes.ts` so that:
+
+- it imports the ClienteController (or its router),
+- registers routes under `/clientes` pointing to the controller methods.
+
+Return only the updated TypeScript code for `routes.ts`.
+
+PHASE 4 – Backend Module: Barbeiros
+TASK-BE-200 – Create barbeiros module folders
+Describe and then generate a bash script that creates the folder structure for `src/modules/barbeiros` with:
+
+- interface/http
+- domain/entities
+- domain/use-cases
+- domain/contracts
+- infra/repositories
+- infra/mappers
+
+Return first the directory tree, then the shell script.
+
+TASK-BE-210 – Implement Barbeiro entity
+Create `src/modules/barbeiros/domain/entities/Barbeiro.ts` defining a class `Barbeiro` with fields:
+
+- id: string
+- nome: string
+- telefone: string
+- ativo: boolean
+
+Include any simple helper methods you find useful (e.g., activate/deactivate). Return only the TypeScript code.
+
+TASK-BE-211 – Implement HorarioTrabalho entity
+Create `src/modules/barbeiros/domain/entities/HorarioTrabalho.ts` defining a class `HorarioTrabalho` with fields:
+
+- id: string
+- barbeiroId: string
+- diaSemana: number
+- horaInicio: Date
+- horaFim: Date
+
+Return only the TypeScript code.
+
+TASK-BE-220 – Define IBarbeiroRepository
+Create `src/modules/barbeiros/domain/contracts/IBarbeiroRepository.ts` that:
+
+- imports `Barbeiro`,
+- exports an interface with methods to create, update, find by id, and list all active barbers.
+
+Return only the TypeScript code.
+
+TASK-BE-221 – Define IHorarioTrabalhoRepository
+Create `src/modules/barbeiros/domain/contracts/IHorarioTrabalhoRepository.ts` that:
+
+- imports `HorarioTrabalho`,
+- exports an interface with methods to create, update, list by barbeiroId, and list by barbeiroId + diaSemana.
+
+Return only the TypeScript code.
+
+TASK-BE-222 – Implement PrismaBarbeiroRepository
+Create `src/modules/barbeiros/infra/repositories/PrismaBarbeiroRepository.ts` implementing `IBarbeiroRepository` using Prisma:
+
+- map between Prisma `barbeiro` and domain `Barbeiro`,
+- implement create, update, findById, listActive methods.
+
+Return only the TypeScript code.
+
+TASK-BE-223 – Implement PrismaHorarioTrabalhoRepository
+Create `src/modules/barbeiros/infra/repositories/PrismaHorarioTrabalhoRepository.ts` implementing `IHorarioTrabalhoRepository` using Prisma:
+
+- map between Prisma `horarioTrabalho` and domain `HorarioTrabalho`,
+- implement methods to manage working hours for each barber.
+
+Return only the TypeScript code.
+
+TASK-BE-230 – Implement CadastrarBarbeiro use case
+Create `src/modules/barbeiros/domain/use-cases/CadastrarBarbeiro.ts` with a class `CadastrarBarbeiro` that:
+
+- receives `IBarbeiroRepository` via constructor,
+- exposes `execute({ nome, telefone })`,
+- creates a Barbeiro with `ativo = true`,
+- persists and returns it.
+
+Return only the TypeScript code.
+
+TASK-BE-231 – Implement AtualizarBarbeiro use case
+Create `src/modules/barbeiros/domain/use-cases/AtualizarBarbeiro.ts` with a class `AtualizarBarbeiro` that:
+
+- exposes `execute({ id, nome?, telefone? })`,
+- updates existing barber fields if provided,
+- persists and returns the updated barber.
+
+Return only the TypeScript code.
+
+TASK-BE-232 – Implement AtivarInativarBarbeiro use case
+Create `src/modules/barbeiros/domain/use-cases/AtivarInativarBarbeiro.ts` with a class `AtivarInativarBarbeiro` that:
+
+- exposes `execute({ id, ativo })`,
+- loads the barber, sets `ativo`, saves and returns.
+
+Return only the TypeScript code.
+
+TASK-BE-233 – Implement ConfigurarHorarioTrabalho use case
+Create `src/modules/barbeiros/domain/use-cases/ConfigurarHorarioTrabalho.ts` with a class `ConfigurarHorarioTrabalho` that:
+
+- exposes `execute({ barbeiroId, diaSemana, horaInicio, horaFim })`,
+- validates that `horaInicio < horaFim`,
+- creates or updates a HorarioTrabalho for that barber/day,
+- persists and returns it.
+
+Use `IHorarioTrabalhoRepository`. Return only the TypeScript code.
+
+TASK-BE-234 – Implement ListarHorariosTrabalhoDoBarbeiro use case
+Create `src/modules/barbeiros/domain/use-cases/ListarHorariosTrabalhoDoBarbeiro.ts` with a class that:
+
+- exposes `execute({ barbeiroId, diaSemana? })`,
+- returns a list of HorarioTrabalho for the given barber, optionally filtered by day.
+
+Return only the TypeScript code.
+
+TASK-BE-240 – Implement BarbeiroController
+Create `src/modules/barbeiros/interface/http/BarbeiroController.ts` that defines HTTP handlers for:
+
+- POST `/barbeiros` → create barber,
+- PUT `/barbeiros/:id` → update barber,
+- PATCH `/barbeiros/:id/status` → activate/deactivate,
+- GET `/barbeiros/:id/horarios` → list working hours,
+- POST `/barbeiros/:id/horarios` → configure working hours.
+
+Each handler validates input, calls the corresponding use case, and returns JSON. Return only the TypeScript code.
+
+TASK-BE-241 – Wire barbeiros routes
+Update `src/main/routes.ts` to:
+
+- import BarbeiroController or its router for `/barbeiros`,
+- register all barber-related routes under `/barbeiros`.
+
+Return only the updated TypeScript code for `routes.ts`.
+
+PHASE 5 – Backend Module: Serviços
+TASK-BE-300 – Create servicos module folders
+Describe the folder structure for `src/modules/servicos` with:
+
+- interface/http
+- domain/entities
+- domain/use-cases
+- domain/contracts
+- infra/repositories
+- infra/mappers
+
+Then generate a bash script to create these folders from the project root. Return tree + script.
+
+TASK-BE-310 – Implement Servico entity
+Create `src/modules/servicos/domain/entities/Servico.ts` that defines a class `Servico` with:
+
+- id: string
+- nome: string
+- duracaoMinutos: number
+- preco: number or Decimal-compatible type
+- ativo: boolean
+
+Return only the TypeScript code.
+
+TASK-BE-320 – Define IServicoRepository
+Create `src/modules/servicos/domain/contracts/IServicoRepository.ts` with methods to:
+
+- create,
+- update,
+- findById,
+- listActive services.
+
+Return only the TypeScript code.
+
+TASK-BE-321 – Implement PrismaServicoRepository
+Create `src/modules/servicos/infra/repositories/PrismaServicoRepository.ts` that:
+
+- implements `IServicoRepository` using Prisma,
+- maps between Prisma `servico` and domain `Servico`.
+
+Return only the TypeScript code.
+
+TASK-BE-322 – Implement CadastrarServico use case
+Create `src/modules/servicos/domain/use-cases/CadastrarServico.ts` with a class that:
+
+- exposes `execute({ nome, duracaoMinutos, preco })`,
+- creates a service with `ativo = true`,
+- persists and returns it.
+
+Return only the TypeScript code.
+
+TASK-BE-323 – Implement AtualizarServico use case
+Create `src/modules/servicos/domain/use-cases/AtualizarServico.ts` that:
+
+- exposes `execute({ id, nome?, duracaoMinutos?, preco? })`,
+- updates existing fields if provided,
+- saves and returns the service.
+
+Return only the TypeScript code.
+
+TASK-BE-324 – Implement AtivarInativarServico use case
+Create `src/modules/servicos/domain/use-cases/AtivarInativarServico.ts` that:
+
+- exposes `execute({ id, ativo })`,
+- loads the service, updates `ativo`, saves and returns.
+
+Return only the TypeScript code.
+
+TASK-BE-325 – Implement ListarServicosAtivos use case
+Create `src/modules/servicos/domain/use-cases/ListarServicosAtivos.ts` that:
+
+- has `execute()` with no input,
+- returns all services where `ativo = true`.
+
+Return only the TypeScript code.
+
+TASK-BE-330 – Implement ServicoController
+Create `src/modules/servicos/interface/http/ServicoController.ts` with handlers for:
+
+- POST `/servicos` → create service,
+- PUT `/servicos/:id` → update,
+- PATCH `/servicos/:id/status` → activate/deactivate,
+- GET `/servicos` → list active services.
+
+Use zod or simple validation and call the corresponding use cases. Return only the TypeScript code.
+
+TASK-BE-331 – Wire servicos routes
+Update `src/main/routes.ts` to register routes for services under `/servicos` using ServicoController or a router.
+
+Return only the updated TypeScript code.
+
+PHASE 6 – Backend Module: Agendamentos
+TASK-BE-400 – Create agendamentos module folders
+Describe the folder structure for `src/modules/agendamentos` with:
+
+- interface/http
+- interface/dtos
+- domain/entities
+- domain/use-cases
+- domain/rules
+- domain/contracts
+- infra/repositories
+- infra/mappers
+
+Then generate a bash script to create all of these folders. Return tree + script.
+
+TASK-BE-410 – Implement Agendamento entity
+Create `src/modules/agendamentos/domain/entities/Agendamento.ts` that defines a class `Agendamento` with:
+
+- id: string
+- barbeiroId: string
+- clienteId: string
+- servicoId: string
+- dataHoraInicio: Date
+- dataHoraFim: Date
+- status: string (e.g., 'CONFIRMADO', 'CONCLUIDO', 'CANCELADO_CLIENTE', 'CANCELADO_BARBEIRO', 'FALTA')
+- origem: string ('cliente' or 'barbeiro')
+- observacoes?: string
+
+Include methods to change status respecting the allowed transitions from the lifecycle document.
+
+Return only the TypeScript code.
+
+TASK-BE-411 – Implement status transition methods
+Extend `Agendamento` in `Agendamento.ts` with methods:
+
+- `markConcluido()`
+- `cancelByCliente()`
+- `cancelByBarbeiro()`
+- `markFalta()`
+
+Each method should:
+- validate the current status is `CONFIRMADO`,
+- throw a DomainError if the transition is not allowed,
+- set the appropriate new status.
+
+Return only the updated TypeScript code for the `Agendamento` class.
+
+TASK-BE-420 – Define IAgendamentoRepository
+Create `src/modules/agendamentos/domain/contracts/IAgendamentoRepository.ts` with methods:
+
+- `create(agendamento: Agendamento): Promise<Agendamento>`
+- `update(agendamento: Agendamento): Promise<Agendamento>`
+- `findById(id: string): Promise<Agendamento | null>`
+- `findForBarbeiroOnDay(barbeiroId: string, date: Date): Promise<Agendamento[]>`
+- `findConflicting(barbeiroId: string, start: Date, end: Date): Promise<Agendamento[]>`
+
+Return only the TypeScript code.
+
+TASK-BE-421 – Implement PrismaAgendamentoRepository
+Create `src/modules/agendamentos/infra/repositories/PrismaAgendamentoRepository.ts` that:
+
+- implements `IAgendamentoRepository` with Prisma,
+- maps between Prisma `agendamento` and domain `Agendamento`,
+- correctly filters by date range and status when needed.
+
+Return only the TypeScript code.
+
+TASK-BE-422 – Implement AgendamentoMapper
+Create `src/modules/agendamentos/infra/mappers/AgendamentoMapper.ts` with functions:
+
+- `toDomain(prismaAgendamento): Agendamento`
+- `toPrisma(agendamento: Agendamento): any`
+
+Return only the TypeScript code.
+
+TASK-BE-430 – Implement ValidadorAntecedencia
+Create `src/modules/agendamentos/domain/rules/ValidadorAntecedencia.ts` that exports a function:
+
+`isValidLeadTime(targetDate: Date, minMinutes: number): boolean`
+
+The function should return true if `targetDate` is at least `minMinutes` in the future relative to now. Use dateUtils if available.
+
+Return only the TypeScript code.
+
+TASK-BE-431 – Implement CalculadorDeSlots
+Create `src/modules/agendamentos/domain/rules/CalculadorDeSlots.ts` that exports a function to calculate available time slots:
+
+`calculateSlots(params: { horariosTrabalho: HorarioTrabalho[]; duracaoMinutos: number; agendamentosExistentes: Agendamento[]; data: Date; minLeadTimeMinutes: number; }): { inicio: Date; fim: Date; }[]`
+
+Rules:
+- slots must be within working hours,
+- slots must not overlap existing CONFIRMADO appointments,
+- slots in the past or violating the lead time are excluded.
+
+Return only the TypeScript code.
+
+TASK-BE-440 – Implement ListarHorariosDisponiveis use case
+Create `src/modules/agendamentos/domain/use-cases/ListarHorariosDisponiveis.ts` with a class that:
+
+- exposes `execute({ barbeiroId, servicoId, data })`,
+- loads the service to get `duracaoMinutos`,
+- loads working hours for the barber and that day,
+- loads existing appointments for that barber/date with status CONFIRMADO,
+- calls `calculateSlots` to compute available slots,
+- returns the list of available slots.
+
+Use repository interfaces from `servicos`, `barbeiros`, and `agendamentos`. Return only the TypeScript code.
+
+TASK-BE-441 – Implement CriarAgendamento use case
+Create `src/modules/agendamentos/domain/use-cases/CriarAgendamento.ts` with a class `CriarAgendamento` that:
+
+- exposes `execute({ clienteId, barbeiroId, servicoId, dataHoraInicio, origem })`,
+- loads the client and checks `bloqueado == false`,
+- loads the service and barber,
+- computes `dataHoraFim = dataHoraInicio + duracaoMinutos`,
+- validates lead time with `isValidLeadTime`,
+- checks for conflicting appointments via `IAgendamentoRepository.findConflicting`,
+- creates an Agendamento with status 'CONFIRMADO',
+- saves and returns it.
+
+Use repositories from `clientes`, `barbeiros`, `servicos`, and `agendamentos`. Return only the TypeScript code.
+
+TASK-BE-450 – Implement CancelarAgendamentoCliente use case
+Create `src/modules/agendamentos/domain/use-cases/CancelarAgendamentoCliente.ts` with a class that:
+
+- exposes `execute({ agendamentoId, clienteId })`,
+- loads the appointment,
+- verifies it belongs to the given client,
+- ensures status is CONFIRMADO,
+- optionally validates cancellation lead time,
+- calls the entity method to set status to CANCELADO_CLIENTE,
+- saves and returns the updated appointment.
+
+Return only the TypeScript code.
+
+TASK-BE-451 – Implement CancelarAgendamentoBarbeiro use case
+Create `src/modules/agendamentos/domain/use-cases/CancelarAgendamentoBarbeiro.ts` with a class that:
+
+- exposes `execute({ agendamentoId, barbeiroId })`,
+- loads the appointment,
+- verifies it belongs to the given barber,
+- ensures status is CONFIRMADO,
+- sets status to CANCELADO_BARBEIRO using the entity method,
+- saves and returns the updated appointment.
+
+Return only the TypeScript code.
+
+TASK-BE-452 – Implement MarcarAgendamentoConcluido use case
+Create `src/modules/agendamentos/domain/use-cases/MarcarAgendamentoConcluido.ts` that:
+
+- exposes `execute({ agendamentoId, barbeiroId })`,
+- loads the appointment,
+- verifies barber ownership and current status == CONFIRMADO,
+- calls entity method to mark as CONCLUIDO,
+- saves and returns the updated appointment.
+
+Return only the TypeScript code.
+
+TASK-BE-453 – Implement RegistrarFaltaAgendamento use case
+Create `src/modules/agendamentos/domain/use-cases/RegistrarFaltaAgendamento.ts` that:
+
+- exposes `execute({ agendamentoId, barbeiroId })`,
+- loads the appointment,
+- verifies barber ownership and current status == CONFIRMADO,
+- calls entity method to set status to FALTA,
+- saves the appointment,
+- calls the `RegistrarFaltaCliente` use case from the `clientes` module passing the `clienteId`.
+
+Return only the TypeScript code.
+
+TASK-BE-454 – Implement ListarAgendaDoDia use case
+Create `src/modules/agendamentos/domain/use-cases/ListarAgendaDoDia.ts` that:
+
+- exposes `execute({ barbeiroId, data })`,
+- loads all appointments for that barber on that date,
+- sorts them by `dataHoraInicio`,
+- optionally enriches with client and service basic info (name, duration),
+- returns a list of appointments suitable for showing an agenda.
+
+Return only the TypeScript code.
+
+TASK-BE-460 – Define agendamento DTOs
+Under `src/modules/agendamentos/interface/dtos`, create:
+
+- `CriarAgendamentoDTO.ts` – request body shape for creating an appointment.
+- `CancelarAgendamentoDTO.ts` – request params/body shape for canceling.
+- `AgendamentoResponseDTO.ts` – response shape for returning appointment data.
+
+Use TypeScript interfaces or types and export them. Return only the TypeScript code for all three.
+
+TASK-BE-461 – Implement AgendamentoController
+Create `src/modules/agendamentos/interface/http/AgendamentoController.ts` that defines handlers for:
+
+- GET `/disponibilidade` → calls ListarHorariosDisponiveis,
+- POST `/agendamentos` → calls CriarAgendamento,
+- DELETE `/agendamentos/:id` → calls CancelarAgendamentoCliente,
+- DELETE `/agendamentos/:id/barbeiro` → calls CancelarAgendamentoBarbeiro,
+- POST `/agendamentos/:id/concluir` → calls MarcarAgendamentoConcluido,
+- POST `/agendamentos/:id/falta` → calls RegistrarFaltaAgendamento,
+- GET `/barbeiros/:id/agenda` → calls ListarAgendaDoDia.
+
+Validate input, call use cases, and return JSON. Return only the TypeScript code.
+
+TASK-BE-462 – Wire agendamentos routes
+Update `src/main/routes.ts` to mount all scheduling-related routes using AgendamentoController under suitable paths:
+
+- `/disponibilidade`
+- `/agendamentos`
+- `/barbeiros/:id/agenda`
+
+Return only the updated TypeScript code.
+
+PHASE 7 – Cross-cutting Backend Concerns
+TASK-BE-500 – Global error handler middleware
+Create `src/main/middlewares/errorHandler.ts` with an Express error-handling middleware that:
+
+- detects DomainError instances and returns a 400–422 with `code` and `message`,
+- logs unexpected errors,
+- returns a 500 JSON error with a generic message for unknown errors.
+
+Return only the TypeScript code.
+
+TASK-BE-501 – Plug error handler into app
+Update `src/main/app.ts` to import and use the `errorHandler` middleware after all routes.
+
+Return only the updated TypeScript code for `app.ts`.
+
+TASK-BE-502 – Use zod validation in controllers
+Pick one controller (e.g., AgendamentoController) and:
+
+- add zod schemas for the request body/query of its endpoints,
+- validate input before calling use cases,
+- return 400 on validation errors.
+
+Show the updated controller file using zod. Return only the TypeScript code.
+
+TASK-BE-510 – Implement auth middleware stub
+Create `src/shared/auth/middleware.ts` with an Express middleware `fakeAuth` that:
+
+- for now, just attaches a dummy `user` object to `req` (e.g., `{ id: 'barbeiro-demo' }`),
+- calls `next()`.
+
+Return only the TypeScript code.
+
+TASK-BE-511 – Protect barber-only endpoints
+Update relevant routes in `src/main/routes.ts` or the controllers so that:
+
+- barber-only actions (mark conclude, mark no-show, barber cancel, view agenda) use the `fakeAuth` middleware.
+
+Return only the updated TypeScript code for the routes file (or the router where you attach the middleware).
+
+PHASE 8 – Frontend Web
+TASK-FE-001 – Create React + TS frontend
+Generate the command to create a new React + TypeScript project called `barbearia-agendamento-frontend` using Vite (preferred) or Create React App.
+
+Return only the single command.
+
+TASK-FE-002 – Configure routing
+In a React + TypeScript app, set up React Router with basic routes:
+
+- `/` – home or entry screen,
+- `/agendar` – client booking flow,
+- `/agenda` – barber agenda,
+- `/admin` – basic admin.
+
+Return only the TypeScript/JSX code for the main router component (e.g., App.tsx) configuring these routes.
+
+TASK-FE-003 – HTTP client setup
+Create `src/services/api.ts` in the React app that:
+
+- exports an Axios instance (or fetch wrapper),
+- sets the baseURL from an environment variable (e.g., VITE_API_URL),
+- has basic error handling.
+
+Return only the TypeScript code.
+
+TASK-FE-010 – Choose Barber page
+Create a React component `ChooseBarberPage` that:
+
+- on mount, calls GET `/barbeiros` (you can assume such endpoint exists listing all active barbers),
+- displays the barbers in a list,
+- lets the user select one and proceed to the next step (you can just log or call a callback).
+
+Return only the TypeScript/JSX code for this component.
+
+TASK-FE-011 – Choose Service page
+Create a React component `ChooseServicePage` that:
+
+- fetches services from GET `/servicos`,
+- shows a list of active services,
+- lets the user select one and proceed.
+
+Return only the TypeScript/JSX code.
+
+TASK-FE-012 – Choose Date step
+Create a React component `ChooseDateStep` that:
+
+- allows selecting a date (use a simple HTML date input),
+- on change, calls a parent callback (e.g., `onDateSelected(date)`).
+
+Return only the TypeScript/JSX code for the component, no styling required.
+
+TASK-FE-013 – Choose Time Slot step
+Create a React component `ChooseTimeSlotStep` that:
+
+- receives `barbeiroId`, `servicoId`, and `date` as props,
+- calls GET `/disponibilidade` with these parameters,
+- displays the returned slots as buttons,
+- lets the user select a slot and calls `onSlotSelected(slot)`.
+
+Return only the TypeScript/JSX code.
+
+TASK-FE-014 – Confirm Booking step
+Create a React component `ConfirmBookingStep` that:
+
+- collects client name and phone,
+- calls the backend to create or get the client (POST `/clientes` or similar),
+- then calls POST `/agendamentos` with the chosen barber, service, date/time and client,
+- shows success or error message.
+
+Return only the TypeScript/JSX code, assuming an `api` client helper exists.
+
+TASK-FE-020 – Simple barber selection / login
+Create a React component `BarberSelector` that:
+
+- fetches active barbers from `/barbeiros`,
+- allows selecting one barber to act as "logged in" barber,
+- stores the selected barber ID in React state or context.
+
+Return only the TypeScript/JSX code.
+
+TASK-FE-021 – Agenda do Dia page
+Create a React component `AgendaDoDiaPage` that:
+
+- receives `barbeiroId` (from props or context),
+- allows choosing a date,
+- calls GET `/barbeiros/:id/agenda?data=YYYY-MM-DD`,
+- displays the list of appointments with hour, client name, service and status.
+
+Return only the TypeScript/JSX code.
+
+TASK-FE-022 – Agenda actions (concluir / falta / cancelar)
+Extend the `AgendaDoDiaPage` (or a nested component) so that each appointment has buttons:
+
+- "Concluir" → POST `/agendamentos/:id/concluir`,
+- "Falta" → POST `/agendamentos/:id/falta`,
+- "Cancelar" → DELETE `/agendamentos/:id/barbeiro`.
+
+After each action, refresh the agenda. Return the updated TypeScript/JSX code.
+
+TASK-FE-023 – Refresh after actions
+Ensure `AgendaDoDiaPage` automatically re-fetches the agenda list after any action that changes appointment status (conclude, no-show, cancel).
+
+Implement this behavior in the React code and return only the relevant updated component code.
+
+TASK-FE-030 – Manage Services page
+Create a React page `ManageServicesPage` that:
+
+- lists services from `/servicos`,
+- allows creating a new service (POST `/servicos`),
+- allows editing an existing service (PUT `/servicos/:id`),
+- allows toggling active/inactive (PATCH `/servicos/:id/status`).
+
+Use simple forms and buttons; focus on API calls and state handling. Return only the TypeScript/JSX code.
+
+TASK-FE-031 – Manage Barbers page
+Create a React page `ManageBarbersPage` that:
+
+- lists barbers,
+- allows creating/updating barbers,
+- allows toggling active status,
+- allows configuring working hours for a selected barber by calling the appropriate backend endpoints.
+
+Return only the TypeScript/JSX code.
+
+TASK-FE-032 – Manage Clients page
+Create a React page `ManageClientsPage` that:
+
+- lists clients with their faltas and bloqueado status,
+- provides a button to unlock a client (POST `/clientes/:id/desbloquear` or similar),
+- refreshes the list after unlocking.
+
+Return only the TypeScript/JSX code.
+
+PHASE 9 – Testing and Quality
+TASK-QA-001 – Configure Jest
+In the Node + TypeScript backend, configure Jest by:
+
+- creating a `jest.config.js` or `jest.config.ts` using ts-jest,
+- setting test environment to node,
+- ensuring tests in `tests` folder are detected.
+
+Return only the Jest config file contents.
+
+TASK-QA-002 – Unit tests for RegraDeBloqueioPorFaltas
+Create Jest unit tests in `tests/unit/RegraDeBloqueioPorFaltas.spec.ts` that:
+
+- verify that faltas < limit does NOT block,
+- verify that faltas >= limit DOES block.
+
+Return only the TypeScript test code.
+
+TASK-QA-003 – Unit tests for CalculadorDeSlots
+Create Jest unit tests in `tests/unit/CalculadorDeSlots.spec.ts` that:
+
+- test slot generation inside working hours,
+- test that overlapping slots with existing appointments are removed,
+- test that past slots and slots violating lead time are excluded.
+
+Return only the TypeScript test code.
+
+TASK-QA-004 – Unit tests for CriarAgendamento
+Create Jest unit tests in `tests/unit/CriarAgendamento.spec.ts` that cover:
+
+- cannot schedule when client is blocked,
+- cannot schedule when there is a conflicting appointment,
+- cannot schedule when lead time is violated,
+- successful scheduling returns a CONFIRMADO appointment.
+
+Use mocked repositories. Return only the TypeScript test code.
+
+TASK-QA-005 – Unit tests for RegistrarFaltaAgendamento
+Create Jest unit tests in `tests/unit/RegistrarFaltaAgendamento.spec.ts` that verify:
+
+- appointment status is changed to FALTA,
+- the client's faltas counter is incremented,
+- the client is blocked when faltas reach the limit.
+
+Use mocks for Cliente and Agendamento repositories. Return only the TypeScript test code.
+
+TASK-QA-010 – API integration tests
+Create an integration test file `tests/integration/apiFlows.spec.ts` using supertest that:
+
+- spins up the Express app,
+- creates a barber and working hours,
+- creates a service,
+- creates a client,
+- lists availability and creates an appointment,
+- cancels an appointment and marks another as concluded.
+
+Return only the TypeScript code for this integration test.
+
+TASK-QA-011 – Frontend E2E tests
+Assuming Playwright or Cypress is installed for the frontend, outline E2E tests that:
+
+- cover the full client booking flow,
+- cover the barber viewing and updating the agenda.
+
+Return the test file in either Playwright (TypeScript) or Cypress syntax, focusing on test steps rather than implementation details of selectors.
+
+PHASE 10 – Deployment and Delivery
+TASK-OPS-001 – Backend Dockerfile
+Create a Dockerfile for the Node.js backend that:
+
+- uses a Node 18+ base image,
+- installs dependencies,
+- builds the TypeScript project,
+- runs `npm run start` in production.
+
+Optimize for small final image (multi-stage build if you want). Return only the Dockerfile.
+
+TASK-OPS-002 – docker-compose for backend + Postgres
+Create a `docker-compose.yml` that:
+
+- defines a service for the backend container,
+- defines a service for PostgreSQL with a named volume,
+- sets environment variables including DATABASE_URL for the backend.
+
+Return only the docker-compose.yml.
+
+TASK-OPS-003 – .env.example for production
+Generate a `.env.example` file for production with variables:
+
+- DATABASE_URL
+- PORT
+- NODE_ENV
+
+Return only the file contents.
+
+TASK-OPS-004 – Simple CI pipeline
+Provide a GitHub Actions workflow file `.github/workflows/ci.yml` that:
+
+- runs on pushes and pull requests,
+- installs dependencies,
+- runs tests,
+- builds the project.
+
+Return only the YAML workflow.
+
+TASK-OPS-010 – Frontend build script
+Update the React frontend's package.json to include:
+
+- a "build" script that builds the app for production,
+- a "preview" or "serve" script if using Vite.
+
+Return only the "scripts" section of package.json.
+
+TASK-OPS-011 – Frontend hosting instructions
+Explain, in 5–7 bullet points, how to deploy the built React frontend (from `npm run build`) to a static hosting provider (e.g., Netlify, Vercel, or static S3 hosting).
+
+Keep it high-level, step-by-step, no marketing.
+
+TASK-OPS-012 – Frontend env for API base URL
+Show how to configure an environment variable in the frontend (Vite style: `VITE_API_URL`) and how to use it in the `api.ts` HTTP client to define the baseURL.
+
+Return the relevant `.env.example` snippet and the updated `api.ts` code.
+
+TASK-OPS-020 – Manual acceptance test: client flow
+Define a manual test checklist that a human tester can follow to verify:
+
+- a client can choose barber, service, date and slot,
+- create an appointment successfully,
+- gets blocked when they reach the no-show limit.
+
+Return the checklist as numbered steps.
+
+TASK-OPS-021 – Manual acceptance test: barber agenda
+Define a manual test checklist to verify that a barber can:
+
+- view the day agenda,
+- mark each appointment as CONCLUIDO, CANCELADO_CLIENTE, CANCELADO_BARBEIRO, or FALTA.
+
+Return the steps as a numbered list.
+
+TASK-OPS-022 – Manual acceptance test: blocking behavior
+Define a manual test scenario that:
+
+- creates a client,
+- schedules and marks multiple no-shows for that client,
+- confirms that after reaching the configured limit, the client cannot create new appointments.
+
+Return the scenario in clear steps with expected results.
