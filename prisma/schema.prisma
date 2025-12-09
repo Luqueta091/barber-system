@@ -1,0 +1,63 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+}
+
+model Barbeiro {
+  id               String            @id @default(uuid())
+  nome             String
+  telefone         String
+  ativo            Boolean
+  corAgenda        String?
+  horariosTrabalho HorarioTrabalho[]
+  agendamentos     Agendamento[]
+}
+
+model Cliente {
+  id            String         @id @default(uuid())
+  nome          String
+  telefone      String
+  faltas        Int            @default(0)
+  bloqueado     Boolean        @default(false)
+  agendamentos  Agendamento[]
+}
+
+model Servico {
+  id             String         @id @default(uuid())
+  nome           String
+  duracaoMinutos Int
+  preco          Decimal        @db.Decimal(10, 2)
+  ativo          Boolean
+  agendamentos   Agendamento[]
+}
+
+model HorarioTrabalho {
+  id          String   @id @default(uuid())
+  barbeiroId  String
+  diaSemana   Int
+  horaInicio  DateTime
+  horaFim     DateTime
+
+  barbeiro Barbeiro @relation(fields: [barbeiroId], references: [id], onDelete: Cascade)
+}
+
+model Agendamento {
+  id             String   @id @default(uuid())
+  barbeiroId     String
+  clienteId      String
+  servicoId      String
+  dataHoraInicio DateTime
+  dataHoraFim    DateTime
+  status         String
+  origem         String
+  observacoes    String?
+
+  barbeiro Barbeiro @relation(fields: [barbeiroId], references: [id], onDelete: Cascade)
+  cliente  Cliente  @relation(fields: [clienteId], references: [id], onDelete: Cascade)
+  servico  Servico  @relation(fields: [servicoId], references: [id], onDelete: Cascade)
+
+  @@index([barbeiroId, dataHoraInicio])
+}

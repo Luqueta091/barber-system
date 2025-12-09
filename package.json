@@ -1,0 +1,46 @@
+{
+  "name": "barber-system",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/main/server.js",
+  "scripts": {
+    "dev": "ts-node-dev --respawn --transpile-only --require tsconfig-paths/register src/main/server.ts",
+    "build": "tsc",
+    "start": "node dist/main/server.js",
+    "lint": "eslint \"src/**/*.ts\"",
+    "test": "jest --runInBand --passWithNoTests",
+    "prisma:migrate:init": "sh -c 'export $(grep -v '^#' .env | xargs); DATABASE_URL=\"$DIRECT_DATABASE_URL\" prisma migrate dev --name init'",
+    "prisma:migrate": "sh -c 'export $(grep -v '^#' .env | xargs); DATABASE_URL=\"$DIRECT_DATABASE_URL\" prisma migrate dev'",
+    "prisma:generate": "prisma generate"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@prisma/adapter-pg": "^7.1.0",
+    "@prisma/client": "^7.1.0",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1",
+    "pg": "^8.16.3",
+    "zod": "^4.1.13"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.17",
+    "@types/express": "^5.0.6",
+    "@types/jest": "^29.5.12",
+    "@types/node": "^24.10.2",
+    "@types/pg": "^8.15.6",
+    "@types/supertest": "^6.0.3",
+    "@typescript-eslint/eslint-plugin": "^8.49.0",
+    "@typescript-eslint/parser": "^8.49.0",
+    "eslint": "^9.39.1",
+    "jest": "^29.7.0",
+    "prisma": "^7.1.0",
+    "supertest": "^7.1.4",
+    "ts-jest": "^29.4.6",
+    "ts-node-dev": "^2.0.0",
+    "tsconfig-paths": "^4.2.0",
+    "typescript": "^5.9.3"
+  }
+}
