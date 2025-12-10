@@ -1,5 +1,5 @@
 # Stage 1: deps + build
-FROM node:18-alpine AS builder
+FROM node:22-alpine AS builder
 WORKDIR /app
 
 COPY package.json package-lock.json ./
@@ -13,7 +13,7 @@ COPY src ./src
 RUN npm run prisma:generate && npm run build
 
 # Stage 2: production image
-FROM node:18-alpine AS runner
+FROM node:22-alpine AS runner
 WORKDIR /app
 
 ENV NODE_ENV=production
@@ -25,4 +25,4 @@ COPY --from=builder /app/prisma ./prisma
 COPY --from=builder /app/dist ./dist
 
 EXPOSE 3333
-CMD ["node", "dist/main/server.js"]
+CMD ["node", "-r", "tsconfig-paths/register", "dist/main/server.js"]
