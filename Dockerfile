@@ -25,4 +25,4 @@ COPY --from=builder /app/prisma ./prisma
 COPY --from=builder /app/dist ./dist
 
 EXPOSE 3333
-CMD ["node", "-r", "tsconfig-paths/register", "dist/main/server.js"]
+CMD ["node", "dist/main/server.js"]
