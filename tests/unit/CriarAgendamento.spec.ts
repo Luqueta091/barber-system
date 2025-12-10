@@ -14,6 +14,7 @@ describe('CriarAgendamento', () => {
     barbeiro?: Partial<typeof baseBarbeiro>;
     servico?: Partial<typeof baseServico>;
     conflitos?: Agendamento[];
+    agendamentosCliente?: Agendamento[];
   }) => {
     const clienteRepo = {
       findById: jest.fn().mockResolvedValue({ ...baseCliente, ...overrides?.cliente }),
@@ -26,6 +27,9 @@ describe('CriarAgendamento', () => {
     } as any;
     const agendamentoRepo = {
       findConflicting: jest.fn().mockResolvedValue(overrides?.conflitos ?? []),
+      findForCliente: jest
+        .fn()
+        .mockResolvedValue(overrides?.agendamentosCliente ?? []),
       create: jest.fn().mockImplementation((ag: Agendamento) => Promise.resolve(ag)),
     } as any;
 
@@ -101,6 +105,32 @@ describe('CriarAgendamento', () => {
 
     expect(agendamento.status).toBe('CONFIRMADO');
     expect(agendamentoRepo.create).toHaveBeenCalled();
+
+    jest.useRealTimers();
+  });
+
+  it('bloqueia segundo agendamento no mesmo dia para o cliente', async () => {
+    jest.useFakeTimers().setSystemTime(makeDate('2024-01-01T08:00:00Z'));
+    const existente = new Agendamento({
+      barbeiroId: 'b1',
+      clienteId: 'c1',
+      servicoId: 's1',
+      dataHoraInicio: makeDate('2024-01-01T12:00:00Z'),
+      dataHoraFim: makeDate('2024-01-01T13:00:00Z'),
+      status: 'CONFIRMADO',
+      origem: 'cliente',
+    });
+    const { uc } = buildUseCase({ agendamentosCliente: [existente] });
+
+    await expect(
+      uc.execute({
+        clienteId: 'c1',
+        barbeiroId: 'b1',
+        servicoId: 's1',
+        dataHoraInicio: makeDate('2024-01-01T15:00:00Z'),
+        origem: 'cliente',
+      }),
+    ).rejects.toThrow(DomainError);
 
     jest.useRealTimers();
   });

@@ -4,6 +4,7 @@ import { Card } from '../components/ui/Card';
 import Button from '../components/ui/Button';
 import Spinner from '../components/ui/Spinner';
 import { getErrorMessage } from '../utils/errorMessage';
+import { formatTime } from '../utils/time';
 
 interface Slot {
   inicio: string;
@@ -18,9 +19,7 @@ interface Props {
   selectedSlot?: Slot | null;
 }
 
-const hourFromISO = (iso: string) => new Date(iso).getHours();
-const formatLabel = (iso: string) =>
-  new Date(iso).toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' });
+const hourFromISO = (iso: string) => new Date(iso).getUTCHours();
 
 const ChooseTimeSlotStep = ({
   barbeiroId,
@@ -105,7 +104,7 @@ const ChooseTimeSlotStep = ({
                       onClick={() => onSlotSelected(slot)}
                       className="w-full"
                     >
-                      {formatLabel(slot.inicio)}
+                      {formatTime(slot.inicio)}
                     </Button>
                   );
                 })}

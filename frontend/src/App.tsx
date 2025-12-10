@@ -12,6 +12,9 @@ import ManageBarbersPage from './pages/ManageBarbersPage';
 import ManageClientsPage from './pages/ManageClientsPage';
 import AppLayout from './components/layout/AppLayout';
 import Card from './components/ui/Card';
+import ClientLoginPage from './pages/ClientLoginPage';
+import ClientAppointmentsPage from './pages/ClientAppointmentsPage';
+import { useAuth } from './context/AuthContext';
 
 const Layout = () => (
   <AppLayout>
@@ -137,6 +140,7 @@ const Admin = () => (
 );
 
 const BookingFlow = () => {
+  const { user } = useAuth();
   const [barbeiroId, setBarbeiroId] = useState<string>('');
   const [barbeiroNome, setBarbeiroNome] = useState<string>('');
   const [servicoId, setServicoId] = useState<string>('');
@@ -146,6 +150,22 @@ const BookingFlow = () => {
   const [slotSelecionado, setSlotSelecionado] = useState<{ inicio: string; fim: string } | null>(
     null,
   );
+
+  if (user.role !== 'cliente' || !user.cliente) {
+    return (
+      <Card
+        title="Faça login para agendar"
+        subtitle="Use seu nome e telefone e volte para concluir o agendamento."
+      >
+        <Link
+          to="/login-cliente"
+          className="rounded-lg bg-primary-600 px-4 py-2 text-sm font-semibold text-white shadow-soft transition hover:bg-primary-700"
+        >
+          Ir para login
+        </Link>
+      </Card>
+    );
+  }
 
   return (
     <div className="grid gap-4">
@@ -258,6 +278,8 @@ function App() {
         <Route path="/admin/servicos" element={<ManageServicesPage />} />
         <Route path="/admin/barbeiros" element={<ManageBarbersPage />} />
         <Route path="/admin/clientes" element={<ManageClientsPage />} />
+        <Route path="/login-cliente" element={<ClientLoginPage />} />
+        <Route path="/meus-agendamentos" element={<ClientAppointmentsPage />} />
       </Route>
     </Routes>
   );

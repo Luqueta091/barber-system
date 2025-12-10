@@ -28,7 +28,7 @@ export class PrismaBarbeiroRepository implements IBarbeiroRepository {
 
   async listActive(): Promise<Barbeiro[]> {
     const records = await prisma.barbeiro.findMany({
-      where: { ativo: true },
+      orderBy: { nome: 'asc' },
     });
     return records.map(BarbeiroMapper.toDomain);
   }

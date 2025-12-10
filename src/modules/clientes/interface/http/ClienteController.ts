@@ -7,6 +7,7 @@ import { AtualizarCliente } from '../../domain/use-cases/AtualizarCliente';
 import { DesbloquearCliente } from '../../domain/use-cases/DesbloquearCliente';
 import { PrismaClienteRepository } from '../../infra/repositories/PrismaClienteRepository';
 import { Cliente } from '../../domain/entities/Cliente';
+import { LoginCliente } from '../../domain/use-cases/LoginCliente';
 
 const criarClienteSchema = z.object({
   nome: z.string().min(1, 'nome is required'),
@@ -22,10 +23,16 @@ const atualizarClienteSchema = z
     message: 'At least one field must be provided',
   });
 
+const loginClienteSchema = z.object({
+  nome: z.string().min(1).optional(),
+  telefone: z.string().min(1, 'telefone is required'),
+});
+
 const clienteRepository = new PrismaClienteRepository();
 const cadastrarCliente = new CadastrarCliente(clienteRepository);
 const atualizarCliente = new AtualizarCliente(clienteRepository);
 const desbloquearCliente = new DesbloquearCliente(clienteRepository);
+const loginCliente = new LoginCliente(clienteRepository);
 
 const toResponseDTO = (cliente: Cliente): ClienteResponseDTO => ({
   id: cliente.id,
@@ -76,6 +83,22 @@ export class ClienteController {
       const cliente = await desbloquearCliente.execute({
         clienteId: req.params.id,
       });
+
+      return res.status(200).json(toResponseDTO(cliente));
+    } catch (error) {
+      return this.handleError(error, res);
+    }
+  };
+
+  login = async (req: Request, res: Response): Promise<Response> => {
+    try {
+      const parsed = loginClienteSchema.safeParse(req.body);
+
+      if (!parsed.success) {
+        return res.status(400).json({ error: parsed.error.flatten() });
+      }
+
+      const cliente = await loginCliente.execute(parsed.data);
 
       return res.status(200).json(toResponseDTO(cliente));
     } catch (error) {

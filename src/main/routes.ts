@@ -16,6 +16,7 @@ router.put('/clientes/:id', (req, res) => clienteController.update(req, res));
 router.post('/clientes/:id/desbloquear', (req, res) =>
   clienteController.desbloquear(req, res),
 );
+router.post('/clientes/login', (req, res) => clienteController.login(req, res));
 
 router.get('/barbeiros', (req, res) => barbeiroController.list(req, res));
 router.post('/barbeiros', (req, res) => barbeiroController.create(req, res));
@@ -39,6 +40,9 @@ router.delete('/agendamentos/:id', (req, res) => agendamentoController.cancelarC
 router.delete('/agendamentos/:id/barbeiro', fakeAuth, (req, res) =>
   agendamentoController.cancelarBarbeiro(req, res),
 );
+router.delete('/agendamentos/:id/apagar', fakeAuth, (req, res) =>
+  agendamentoController.apagar(req, res),
+);
 router.post('/agendamentos/:id/concluir', fakeAuth, (req, res) =>
   agendamentoController.concluir(req, res),
 );
@@ -47,6 +51,9 @@ router.post('/agendamentos/:id/falta', fakeAuth, (req, res) =>
 );
 router.get('/barbeiros/:id/agenda', fakeAuth, (req, res) =>
   agendamentoController.agendaDoDia(req, res),
+);
+router.get('/clientes/:id/agendamentos', (req, res) =>
+  agendamentoController.listarDoCliente(req, res),
 );
 
 router.get('/agendamentos', (_req, res) => {

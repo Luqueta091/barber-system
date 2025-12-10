@@ -15,6 +15,8 @@ import { RegistrarFaltaAgendamento } from '../../domain/use-cases/RegistrarFalta
 import { RegistrarFaltaCliente } from '@/modules/clientes/domain/use-cases/RegistrarFaltaCliente';
 import { ListarAgendaDoDia } from '../../domain/use-cases/ListarAgendaDoDia';
 import { Agendamento } from '../../domain/entities/Agendamento';
+import { ListarAgendamentosDoCliente } from '../../domain/use-cases/ListarAgendamentosDoCliente';
+import { ApagarAgendamento } from '../../domain/use-cases/ApagarAgendamento';
 
 const agendamentoRepo = new PrismaAgendamentoRepository();
 const clienteRepo = new PrismaClienteRepository();
@@ -42,6 +44,8 @@ const registrarFaltaAgendamento = new RegistrarFaltaAgendamento(
   registrarFaltaCliente,
 );
 const listarAgendaDoDia = new ListarAgendaDoDia(agendamentoRepo, clienteRepo, servicoRepo);
+const listarAgendamentosDoCliente = new ListarAgendamentosDoCliente(agendamentoRepo);
+const apagarAgendamento = new ApagarAgendamento(agendamentoRepo);
 
 const disponibilidadeSchema = z.object({
   barbeiroId: z.string().min(1),
@@ -68,6 +72,13 @@ const barbeiroActionSchema = z.object({
 
 const agendaSchema = z.object({
   data: z.string().min(1),
+});
+
+const listClienteSchema = z.object({
+  onlyFuture: z
+    .union([z.literal('true'), z.literal('false')])
+    .optional()
+    .transform((val) => val === 'true'),
 });
 
 const toDTO = (agendamento: Agendamento) => ({
@@ -169,6 +180,24 @@ export class AgendamentoController {
     }
   };
 
+  apagar = async (req: Request, res: Response): Promise<Response> => {
+    try {
+      const parsed = barbeiroActionSchema.safeParse(req.body);
+      if (!parsed.success) {
+        return res.status(400).json({ error: parsed.error.flatten() });
+      }
+
+      await apagarAgendamento.execute({
+        agendamentoId: req.params.id,
+        barbeiroId: parsed.data.barbeiroId,
+      });
+
+      return res.status(204).send();
+    } catch (error) {
+      return this.handleError(error, res);
+    }
+  };
+
   concluir = async (req: Request, res: Response): Promise<Response> => {
     try {
       const parsed = barbeiroActionSchema.safeParse(req.body);
@@ -226,6 +255,24 @@ export class AgendamentoController {
           servicoDuracaoMinutos: item.servicoDuracaoMinutos,
         })),
       );
+    } catch (error) {
+      return this.handleError(error, res);
+    }
+  };
+
+  listarDoCliente = async (req: Request, res: Response): Promise<Response> => {
+    try {
+      const parsedQuery = listClienteSchema.safeParse(req.query);
+      if (!parsedQuery.success) {
+        return res.status(400).json({ error: parsedQuery.error.flatten() });
+      }
+
+      const agendamentos = await listarAgendamentosDoCliente.execute({
+        clienteId: req.params.id,
+        onlyFuture: parsedQuery.data.onlyFuture,
+      });
+
+      return res.status(200).json(agendamentos.map(toDTO));
     } catch (error) {
       return this.handleError(error, res);
     }

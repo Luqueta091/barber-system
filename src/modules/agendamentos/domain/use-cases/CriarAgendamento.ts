@@ -54,11 +54,29 @@ export class CriarAgendamento {
       throw new DomainError('Serviço não encontrado ou inativo', 'SERVICO_NOT_FOUND');
     }
 
+    const sameDay = (a: Date, b: Date) =>
+      a.getFullYear() === b.getFullYear() &&
+      a.getMonth() === b.getMonth() &&
+      a.getDate() === b.getDate();
+
     if (!isValidLeadTime(dataHoraInicio, minLeadTimeMinutes)) {
       throw new DomainError('Agendamento deve respeitar a antecedência mínima', 'INVALID_LEAD_TIME');
     }
 
     const dataHoraFim = addMinutes(dataHoraInicio, servico.duracaoMinutos);
+
+    // Limita a 1 agendamento por dia para o cliente (considerando apenas confirmados)
+    const agendamentosDoCliente = await this.agendamentoRepository.findForCliente(clienteId);
+    const jaPossuiMesmoDia = agendamentosDoCliente.some((ag) => {
+      const bloqueiaStatus = ['CONFIRMADO', 'CONCLUIDO', 'FALTA'];
+      return bloqueiaStatus.includes(ag.status) && sameDay(ag.dataHoraInicio, dataHoraInicio);
+    });
+    if (jaPossuiMesmoDia) {
+      throw new DomainError(
+        'Cliente já possui um agendamento confirmado neste dia',
+        'CLIENT_ALREADY_HAS_APPOINTMENT_DAY',
+      );
+    }
 
     const conflitos = await this.agendamentoRepository.findConflicting(
       barbeiroId,

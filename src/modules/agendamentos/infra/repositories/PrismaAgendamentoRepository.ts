@@ -62,4 +62,16 @@ export class PrismaAgendamentoRepository implements IAgendamentoRepository {
     });
     return records.map(AgendamentoMapper.toDomain);
   }
+
+  async findForCliente(clienteId: string): Promise<Agendamento[]> {
+    const records = await prisma.agendamento.findMany({
+      where: { clienteId },
+      orderBy: { dataHoraInicio: 'asc' },
+    });
+    return records.map(AgendamentoMapper.toDomain);
+  }
+
+  async delete(id: string): Promise<void> {
+    await prisma.agendamento.delete({ where: { id } });
+  }
 }

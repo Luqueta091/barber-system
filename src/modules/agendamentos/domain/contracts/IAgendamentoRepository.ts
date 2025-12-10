@@ -6,4 +6,6 @@ export interface IAgendamentoRepository {
   findById(id: string): Promise<Agendamento | null>;
   findForBarbeiroOnDay(barbeiroId: string, date: Date): Promise<Agendamento[]>;
   findConflicting(barbeiroId: string, start: Date, end: Date): Promise<Agendamento[]>;
+  findForCliente(clienteId: string): Promise<Agendamento[]>;
+  delete(id: string): Promise<void>;
 }
