@@ -1,10 +1,9 @@
 # Build stage: compila o frontend Vite
-FROM node:18-alpine AS build
+FROM node:20-alpine AS build
 WORKDIR /app
-COPY package*.json ./
+COPY frontend/package*.json ./
 RUN npm ci
-COPY . .
-# Permite injetar a URL do backend na build (pode sobrescrever no deploy)
+COPY frontend .
 ARG VITE_API_URL=https://barber-system-production.up.railway.app
 ENV VITE_API_URL=$VITE_API_URL
 RUN npm run build
