@@ -1,0 +1,5 @@
+[build]
+dockerfile = "Dockerfile"
+
+[deploy]
+startCommand = "node dist/main/server.js"
